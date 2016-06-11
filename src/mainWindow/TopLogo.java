@@ -93,12 +93,12 @@ public class TopLogo {
         exit.setOnAction(MEHandler);
         login.setOnAction(MEHandler);
 
-//---------Creates parent Node that will store image view and menu bar ------------
+//---------Creates parent Node that will store image view and menu bar and connection status------------
         GridPane gp = new GridPane();
         gp.add(iv,0,0);
-        gp.add(connectionStatus,0,1);
+        gp.add(connectionStatus,0,1); //currently connection status indicates only successful connection to db
         gp.add(mb,0,2);
-
+        
         return gp;
     }
 }
