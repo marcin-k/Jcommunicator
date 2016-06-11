@@ -14,15 +14,11 @@ public class Contact {
         this.lastName = lastName;
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
     public int getAddress() {
         return address;
+    }
+
+    public String toString(){
+        return firstName+ " "+lastName;
     }
 }
