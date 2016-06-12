@@ -9,9 +9,6 @@ public class MainWindow_Controller {
     private static MainWindow_Controller ourInstance = null;
     private static Label connectionStatus = new Label("Not Connected");
 
-
-    private MainWindow_Controller() {}
-
     public static MainWindow_Controller getInstance() {
         if(ourInstance==null){
             ourInstance = new MainWindow_Controller();
@@ -32,4 +29,7 @@ public class MainWindow_Controller {
     public Label getConnectionStatus(){
         return connectionStatus;
     }
+
+
+
 }

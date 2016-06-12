@@ -1,4 +1,4 @@
-package mainWindow;
+package mainWindow.model;
 
 /**
  * Created by marcin on 11/06/2016.

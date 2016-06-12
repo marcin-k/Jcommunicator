@@ -7,6 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.text.Font;
@@ -21,7 +22,7 @@ public class Login_GUI {
         Login_Controller.getInstance().resetLabel();
     }
 
-    public Node getNode() throws Exception {
+    public Node getNode(BorderPane rootNode) throws Exception {
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
         grid.setHgap(10);
@@ -56,7 +57,7 @@ public class Login_GUI {
             else if(pwd.getText().equals(""))
                 System.out.println("empty password");
             else
-                if(Login_Controller.getInstance().login(login.getText(), pwd.getText())){
+                if(Login_Controller.getInstance().login(login.getText(), pwd.getText(), rootNode)){
                     try {
                         Thread.sleep(2000);
                         ((Node)(event.getSource())).getScene().getWindow().hide();

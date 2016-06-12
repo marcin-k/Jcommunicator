@@ -9,6 +9,7 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.Node;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 import logInWindow.Login_GUI;
@@ -17,7 +18,7 @@ import logInWindow.Login_GUI;
  * Created by marcin on 24/05/2016.
  */
 public class TopLogo {
-    public Node getTopLogo(){
+    public Node getTopLogo(BorderPane rootNode){
 
 //---------------------------Image View ------------------------------------------
         //Creates imageView node to return
@@ -60,7 +61,7 @@ public class TopLogo {
                 Stage loginWindow = new Stage();
                 Login_GUI node  = new Login_GUI();
                 try {
-                    Scene myScene = new Scene((Parent) node.getNode(), 300, 275);
+                    Scene myScene = new Scene((Parent) node.getNode(rootNode), 300, 275);
                     loginWindow.setScene(myScene);
                     loginWindow.setResizable(false);
                     loginWindow.show();

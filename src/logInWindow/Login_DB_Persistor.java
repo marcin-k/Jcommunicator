@@ -5,7 +5,10 @@ package logInWindow;
  */
 
 
+import mainWindow.model.Contact;
+
 import java.sql.*;
+import java.util.ArrayList;
 
 public class Login_DB_Persistor {
     //This is the JDBC Connection object.
@@ -37,6 +40,7 @@ public class Login_DB_Persistor {
         }
     }
 //TODO: change the return type to string to indicate the type of problem
+    // Checks login details
     public boolean check(String login, String password) {
         //Create an empty PatientsList
         boolean toReturn = false;
@@ -63,4 +67,32 @@ public class Login_DB_Persistor {
         }
         return toReturn;
     }
+    // Pulls list of contacts from a database
+    public ArrayList<Contact> loadContacts(String username){
+
+        //Create an empty ListOfContacts
+        ArrayList<Contact> contacts = new ArrayList();
+        try{
+            Statement stmt = dbConnection.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM JComm.Contacts where username='"+username+"'");
+
+            //loops through all rows and inserts them into "contacts" (contact list)
+            while(rs.next())
+            {
+                String firstName = rs.getString("firstName");
+                String lastName = rs.getString("lastName");
+                int address = rs.getInt("address");
+
+                Contact recreatedContact = new Contact(address, firstName, lastName);
+                contacts.add(recreatedContact);
+            }
+            rs.close();
+            stmt.close();
+        }
+        catch(SQLException ex){
+            System.out.println(ex.getMessage());
+        }
+        return contacts;
+    }
+
 }
