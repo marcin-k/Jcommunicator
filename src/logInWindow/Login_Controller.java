@@ -2,11 +2,10 @@ package logInWindow;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.scene.Node;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
-import mainWindow.CenterPane;
 import mainWindow.MainWindow_Controller;
 import mainWindow.model.Contact;
 
@@ -46,7 +45,8 @@ public class Login_Controller {
             MainWindow_Controller.getInstance().setConnectionConnected();
             ArrayList<Contact> arry = persistor.loadContacts(login);
             contacts = FXCollections.observableArrayList(arry);
-            rootNode.setCenter(new CenterPane().getCenterPane());
+            //rootNode.setCenter(new CenterPane().getCenterPane());
+            rootNode.setCenter(new ListView(getList()));
             //pull contact list from server
             //close login window and prevent from reopen it
             isItConnected = true;
