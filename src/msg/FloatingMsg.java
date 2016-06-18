@@ -9,11 +9,16 @@ public class FloatingMsg implements Serializable {
     private int sender;
     private int recipient;
     private String message;
-
-    public FloatingMsg(int sender, int recipient, String message){
+    private int specialInfo;
+    /* specialInfo: 0 - ignore
+                    1 - new connection
+                    2 - close connection
+    */
+    public FloatingMsg(int sender, int recipient, String message, int specialInfo){
         this.sender = sender;
         this.recipient = recipient;
         this.message = message;
+        this.specialInfo = specialInfo;
     }
 
 
@@ -39,5 +44,9 @@ public class FloatingMsg implements Serializable {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public int getSpecialInfo(){
+        return specialInfo;
     }
 }

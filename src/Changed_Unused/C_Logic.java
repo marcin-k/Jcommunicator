@@ -1,4 +1,4 @@
-package conversationWindow;
+package Changed_Unused;
 
 import msg.FloatingMsg;
 
@@ -51,14 +51,14 @@ public class C_Logic implements Runnable, Serializable{
             }
         }
     }
-    public void sendMsg(int sender, int recipient, String msg){
+    public void sendMsg(int sender, int recipient, String msg, int specialInfo){
 
         //sends msg
         OutputStream outToServer = null;
         try {
             outToServer = clientSocket.getOutputStream();
             ObjectOutputStream out = new ObjectOutputStream(outToServer);
-            out.writeObject(new FloatingMsg(sender, recipient, msg));
+            out.writeObject(new FloatingMsg(sender, recipient, msg, 0 ));
         } catch (IOException e) {
             e.printStackTrace();
         }

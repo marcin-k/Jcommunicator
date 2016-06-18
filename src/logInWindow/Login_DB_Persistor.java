@@ -42,7 +42,7 @@ public class Login_DB_Persistor {
 //TODO: change the return type to string to indicate the type of problem
     // Checks login details
     public boolean check(String login, String password) {
-        //Create an empty PatientsList
+
         boolean toReturn = false;
         try {
             Statement stmt = dbConnection.createStatement();
@@ -94,5 +94,21 @@ public class Login_DB_Persistor {
         }
         return contacts;
     }
-
+//---------------------------Retrieves logged in user address------------------
+public int getLoggedInUserAddress(String username) {
+    int address = 0;
+    try {
+        Statement stmt = dbConnection.createStatement();
+        ResultSet rs = stmt.executeQuery("SELECT * FROM JComm.User where login='"+username+"'");
+        if(rs.next()) {
+            address = rs.getInt("address");
+        }
+        rs.close();
+        stmt.close();
+    }
+    catch (SQLException ex) {
+        System.out.println(ex.getMessage());
+    }
+    return address;
+}
 }

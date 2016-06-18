@@ -1,4 +1,4 @@
-package logInWindow;
+package Changed_Unused;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -29,7 +29,7 @@ public class zzz_UNUSED_APP_Login_GUI extends Application {
         grid.setVgap(10);
         grid.setPadding(new Insets(25, 25, 25, 25));
 
-        Text scenetitle = new Text("Welcome");
+        Text scenetitle = new Text("Welcome to JCommunicator");
         scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
         grid.add(scenetitle, 0, 0, 2, 1);
 

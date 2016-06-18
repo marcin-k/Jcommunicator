@@ -1,12 +1,13 @@
 package mainWindow;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
+import conversationWindow.All_In_One_ConversationWindow;
 import javafx.scene.Node;
-import javafx.scene.control.Alert;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.ListView;
 import javafx.scene.control.MultipleSelectionModel;
 import javafx.scene.control.SelectionMode;
+import javafx.stage.Stage;
 import logInWindow.Login_Controller;
 import mainWindow.model.Contact;
 
@@ -22,18 +23,19 @@ public class CenterPane {
         myListSelMod.setSelectionMode(SelectionMode.SINGLE);
 
         contactView.getSelectionModel().selectedItemProperty().addListener(
-                new ChangeListener<Object>() {
-                    public void changed(ObservableValue<? extends Object> ov,
-                                        Object old_val, Object new_val) {
-                        //call to overloaded setCenter method to change what is displayed in center screen
-                        //open new conversation window
+                (ov, old_val, new_val) -> {
+                    //call to overloaded setCenter method to change what is displayed in center screen
+                    //open new conversation window
+                    Stage conversationStage = new Stage();
+                    Contact recipient = (Contact)new_val;
+                    All_In_One_ConversationWindow conversationWindow = new All_In_One_ConversationWindow(
+                            Login_Controller.getInstance().getLoggedInUserAddress(),recipient.getAddress());
 
-
-                        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                        alert.setTitle("Conversation Window");
-                        alert.setContentText("This will be replace with conversation window"+(Contact)new_val);
-                        alert.showAndWait();
-                    }
+                    Scene myScene = new Scene((Parent) conversationWindow.getNode(), 300, 275);
+                    conversationStage.setTitle(recipient.getName());
+                    conversationStage.setScene(myScene);
+                    conversationStage.setResizable(false);
+                    conversationStage.show();
                 });
         return contactView;
 

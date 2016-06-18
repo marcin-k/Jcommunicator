@@ -19,6 +19,7 @@ public class Login_Controller {
     private static Label myLabel;
     private static Login_DB_Persistor persistor;
     private static ObservableList<Contact> contacts;
+    private static String loggedInUser="";
 
     //constructor
     private Login_Controller() {
@@ -35,6 +36,7 @@ public class Login_Controller {
     }
 //------------ NON-SINGLETON PART OF CLASS ------------------------------------------------
     public boolean login(String login, String password, BorderPane rootNode) {
+        loggedInUser = login;
         boolean isItConnected = false;
         if (!persistor.check(login, password)) {
             myLabel.setTextFill(Color.RED);
@@ -62,6 +64,9 @@ public class Login_Controller {
     }
     public ObservableList<Contact> getList(){
         return contacts;
+    }
+    public int getLoggedInUserAddress(){
+        return persistor.getLoggedInUserAddress(loggedInUser);
     }
 
 }

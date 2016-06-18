@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Jcommunicator:jar">
+    <output-path>$USER_HOME$/Desktop/artifacts/Jcommunicator_jar</output-path>
+    <root id="archive" name="Jcommunicator.jar">
+      <element id="module-output" name="Jcommunicator" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../MySQL_drivers/jdbc_java/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

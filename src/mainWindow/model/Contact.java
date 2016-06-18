@@ -17,6 +17,9 @@ public class Contact {
     public int getAddress() {
         return address;
     }
+    public String getName(){
+        return firstName+" "+lastName;
+    }
 
     public String toString(){
         return firstName+ " "+lastName;
