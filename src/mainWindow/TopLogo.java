@@ -38,7 +38,7 @@ public class TopLogo {
         mb.getMenus().add(fileMenu);
 
 //---------------------------Connections Status Indicator -------------------------
-        Label connectionStatus = MainWindow_Controller.getInstance().getConnectionStatus();
+        Label connectionStatus = Main_Controller.getInstance().getConnectionStatus();
 
 
 //---------------------------Menu Event handler -----------------------------------

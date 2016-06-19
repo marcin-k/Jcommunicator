@@ -11,6 +11,7 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import mainWindow.Main_Controller;
 import msg.FloatingMsg;
 
 import java.io.*;
@@ -21,7 +22,7 @@ import static java.lang.Thread.sleep;
 /**
  * Created by marcin on 17/06/2016.
  */
-public class All_In_One_ConversationWindow implements Runnable, Serializable {
+public class All_In_One_ConversationWindow implements Serializable {
     Socket clientSocket;
     TextArea conversation;
     int sender;
@@ -30,7 +31,10 @@ public class All_In_One_ConversationWindow implements Runnable, Serializable {
     public All_In_One_ConversationWindow(int sender, int recipient){
         this.sender = sender;
         this.recipient = recipient;
-        conversation = new TextArea();
+
+        conversation = Main_Controller.getInstance().getConversationTextArea(recipient);
+
+/*
         Thread t;
         String server = "localhost";
         int port = 1777;
@@ -42,6 +46,7 @@ public class All_In_One_ConversationWindow implements Runnable, Serializable {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+        */
         //creates entry in servers rooting table
         //sendMsg(sender, recipient, "", 1);
     }
@@ -69,14 +74,14 @@ public class All_In_One_ConversationWindow implements Runnable, Serializable {
 
         Button myButton = new Button("Send");
         myButton.setOnAction(e -> {
-            sendMsg(sender, recipient, inputArea.getText(), 0);
+            Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0);
             conversation.appendText(inputArea.getText() + System.getProperty("line.separator"));
             inputArea.clear();
         });
 
         inputArea.addEventFilter(KeyEvent.KEY_PRESSED, ke -> {
             if (ke.getCode().equals(KeyCode.ENTER)) {
-                sendMsg(sender, recipient, inputArea.getText(), 0);
+                Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0);
                 conversation.appendText(inputArea.getText() + System.getProperty("line.separator"));
                 inputArea.setText("");
                 ke.consume(); // necessary to prevent event handlers for this event
@@ -94,7 +99,7 @@ public class All_In_One_ConversationWindow implements Runnable, Serializable {
 
         return rootNode;
     }
-
+/*
     @Override
     public void run() {
         while(true) {
@@ -131,4 +136,5 @@ public class All_In_One_ConversationWindow implements Runnable, Serializable {
             e.printStackTrace();
         }
     }
+    */
 }

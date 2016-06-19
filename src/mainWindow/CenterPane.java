@@ -26,18 +26,12 @@ public class CenterPane {
                 (ov, old_val, new_val) -> {
                     //call to overloaded setCenter method to change what is displayed in center screen
                     //open new conversation window
-                    Stage conversationStage = new Stage();
-                    Contact recipient = (Contact)new_val;
-                    All_In_One_ConversationWindow conversationWindow = new All_In_One_ConversationWindow(
-                            Login_Controller.getInstance().getLoggedInUserAddress(),recipient.getAddress());
 
-                    Scene myScene = new Scene((Parent) conversationWindow.getNode(), 300, 275);
-                    conversationStage.setTitle(recipient.getName());
-                    conversationStage.setScene(myScene);
-                    conversationStage.setResizable(false);
-                    conversationStage.show();
+                    Contact recipient = (Contact)new_val;
+                    Main_Controller.getInstance().createConversationWindow(recipient);
+
                 });
         return contactView;
-
     }
+
 }
