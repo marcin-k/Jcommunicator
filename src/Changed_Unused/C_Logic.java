@@ -58,7 +58,7 @@ public class C_Logic implements Runnable, Serializable{
         try {
             outToServer = clientSocket.getOutputStream();
             ObjectOutputStream out = new ObjectOutputStream(outToServer);
-            out.writeObject(new FloatingMsg(sender, recipient, msg, 0 ));
+            //out.writeObject(new FloatingMsg(sender, recipient, msg, 0 ));
         } catch (IOException e) {
             e.printStackTrace();
         }

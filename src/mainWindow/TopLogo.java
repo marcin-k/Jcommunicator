@@ -9,8 +9,10 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.Node;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import logInWindow.Login_GUI;
 
@@ -22,21 +24,51 @@ public class TopLogo {
 
 //---------------------------Image View ------------------------------------------
         //Creates imageView node to return
-        ImageView iv = new ImageView();
+        ImageView imageView = new ImageView();
         //Imports an logo file
         Image image = new Image("file:logo.png");
         //Sets the logo as the image view and returns it
-        iv.setImage(image);
+        imageView.setImage(image);
 
 //---------------------------Menu Bar ---------------------------------------------
-        MenuBar mb = new MenuBar();
+        MenuBar menuBar = new MenuBar();
         Menu fileMenu = new Menu("File");
         MenuItem settings = new MenuItem("Settings");
         MenuItem login = new MenuItem("Log in");
         MenuItem exit = new MenuItem("Exit");
         fileMenu.getItems().addAll(login, settings, exit);
-        mb.getMenus().add(fileMenu);
+        Menu aboutMenu = new Menu("About");
+        MenuItem aboutItem = new MenuItem("About");
+        aboutMenu.getItems().addAll(aboutItem);
+        menuBar.getMenus().addAll(fileMenu, aboutMenu);
+        menuBar.setStyle("-fx-font-size: 12px;-fx-font-weight:bold;"); //original color: #95c6f2
 
+//---------------------------Contacts, Search Icons --------------------------------
+        HBox iconsPanel = new HBox();
+        ImageView contactIV = new ImageView(new Image("file:userM.png"));
+        ImageView searchIV = new ImageView(new Image("file:loop.png"));
+
+        searchIV.setFitWidth(40);
+        searchIV.setFitHeight(40);
+        contactIV.setFitHeight(40);
+        contactIV.setFitWidth(40);
+
+        Button search = new Button("", searchIV);
+        search.setOnAction(e-> {
+           rootNode.setCenter(new CenterPaneSearch().getNode());
+        });
+        //search.setStyle("-fx-background-color: #95c6f2;-fx-border-color: #166bb6;");
+
+
+        Button contacts = new Button("", contactIV);
+        contacts.setOnAction(e-> {
+            rootNode.setCenter(new CenterPane().getCenterPane());
+        });
+        //contacts.setStyle("-fx-background-color: #95c6f2;-fx-border-color: #166bb6");
+
+
+        //iconsPanel.setStyle("-fx-background-color: #95c6f2;");
+        iconsPanel.getChildren().addAll(contacts, search);
 //---------------------------Connections Status Indicator -------------------------
         Label connectionStatus = Main_Controller.getInstance().getConnectionStatus();
 
@@ -61,7 +93,7 @@ public class TopLogo {
                 Stage loginWindow = new Stage();
                 Login_GUI node  = new Login_GUI();
                 try {
-                    Scene myScene = new Scene((Parent) node.getNode(rootNode), 300, 275);
+                    Scene myScene = new Scene((Parent) node.getNode(rootNode), 320, 250);
                     loginWindow.setScene(myScene);
                     loginWindow.setResizable(false);
                     loginWindow.show();
@@ -69,6 +101,9 @@ public class TopLogo {
                     e.printStackTrace();
                 }
 
+            }
+            if (name.equals("About")) {
+                System.out.println("About window would be here");
             }
 
         };
@@ -90,16 +125,18 @@ public class TopLogo {
             }
         };
          */
+        aboutItem.setOnAction(MEHandler);
         settings.setOnAction(MEHandler);
         exit.setOnAction(MEHandler);
         login.setOnAction(MEHandler);
 
 //---------Creates parent Node that will store image view and menu bar and connection status------------
-        GridPane gp = new GridPane();
-        gp.add(iv,0,0);
-        gp.add(connectionStatus,0,1); //currently connection status indicates only successful connection to db
-        gp.add(mb,0,2);
+        GridPane gridPane = new GridPane();
+        gridPane.add(menuBar,0,0);
+       // gridPane.add(imageView,0,1); //currently connection status indicates only successful connection to db
+        gridPane.add(iconsPanel,0,2);
+        gridPane.add(connectionStatus,0,3);
         
-        return gp;
+        return gridPane;
     }
 }

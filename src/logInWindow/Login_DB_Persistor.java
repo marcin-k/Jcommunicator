@@ -20,6 +20,7 @@ public class Login_DB_Persistor {
             Class.forName("com.mysql.jdbc.Driver");
 //TODO: Change the database connection details to servers
             this.dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/JComm?user=root&password=");
+            //this.dbConnection = DriverManager.getConnection("jdbc:mysql://mysql1.host.ie:3306/krma50_db?user=krma50_user&password=abc12345");
             if(this.dbConnection != null)
             {
                 System.out.println("CONNECTED TO DATABASE!! : "+this.dbConnection);
@@ -46,7 +47,7 @@ public class Login_DB_Persistor {
         boolean toReturn = false;
         try {
             Statement stmt = dbConnection.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM JComm.User where login='"+login+"'");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='"+login+"'");
             if(rs.next()) {
                 String pass = rs.getString("password");
                 if (rs.getString("password").equals(password)) {
@@ -74,7 +75,7 @@ public class Login_DB_Persistor {
         ArrayList<Contact> contacts = new ArrayList();
         try{
             Statement stmt = dbConnection.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM JComm.Contacts where username='"+username+"'");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM Contacts where username='"+username+"'");
 
             //loops through all rows and inserts them into "contacts" (contact list)
             while(rs.next())
@@ -99,7 +100,7 @@ public int getLoggedInUserAddress(String username) {
     int address = 0;
     try {
         Statement stmt = dbConnection.createStatement();
-        ResultSet rs = stmt.executeQuery("SELECT * FROM JComm.User where login='"+username+"'");
+        ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='"+username+"'");
         if(rs.next()) {
             address = rs.getInt("address");
         }
@@ -111,4 +112,38 @@ public int getLoggedInUserAddress(String username) {
     }
     return address;
 }
+    public String getLoggedInUserFirstName(String username){
+        String firstName="";
+        try {
+            Statement stmt = dbConnection.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='"+username+"'");
+            if(rs.next()) {
+                firstName = rs.getString("firstName");
+            }
+            rs.close();
+            stmt.close();
+        }
+        catch (SQLException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return firstName;
+    }
+    public String getLoggedInUserLastName(String username){
+        String lastName="";
+        try {
+            Statement stmt = dbConnection.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='"+username+"'");
+            if(rs.next()) {
+                lastName = rs.getString("lastName");
+            }
+            rs.close();
+            stmt.close();
+        }
+        catch (SQLException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return lastName;
+    }
+
+
 }

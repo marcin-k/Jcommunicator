@@ -1,4 +1,6 @@
-package mainWindow.model;
+package Changed_Unused;
+
+import mainWindow.model.Contact;
 
 import java.util.ArrayList;
 /*

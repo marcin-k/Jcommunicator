@@ -51,7 +51,7 @@ public class Login_Controller {
             Main_Controller.getInstance().loginToServer();
             //recipient is set to -1 as this message is only for server to know
             //that client is on and what port to forward the traffic
-            Main_Controller.getInstance().sendMsg(-1, getLoggedInUserAddress(), "", 1);
+            Main_Controller.getInstance().sendMsg(getLoggedInUserAddress(), getLoggedInUserAddress(), "", 1, "", "");
 //TODO: sets logged in users address to correct value, used for conversation window
             //pull contact list from server
             //close login window and prevent from reopen it
@@ -71,6 +71,12 @@ public class Login_Controller {
     }
     public int getLoggedInUserAddress(){
         return persistor.getLoggedInUserAddress(loggedInUser);
+    }
+    public String getLoggedInUserFirstName(){
+        return persistor.getLoggedInUserFirstName(loggedInUser);
+    }
+    public String getLoggedInUserLastName(){
+        return persistor.getLoggedInUserLastName(loggedInUser);
     }
 
 }

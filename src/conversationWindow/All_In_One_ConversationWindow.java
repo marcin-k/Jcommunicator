@@ -11,6 +11,7 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import logInWindow.Login_Controller;
 import mainWindow.Main_Controller;
 import msg.FloatingMsg;
 
@@ -23,15 +24,18 @@ import static java.lang.Thread.sleep;
  * Created by marcin on 17/06/2016.
  */
 public class All_In_One_ConversationWindow implements Serializable {
-    Socket clientSocket;
+    //Socket clientSocket;
     TextArea conversation;
     int sender;
     int recipient;
+    String sendersFirstName="";
+    String sendersLastName="";
 
     public All_In_One_ConversationWindow(int sender, int recipient){
         this.sender = sender;
         this.recipient = recipient;
-
+        this.sendersFirstName = Login_Controller.getInstance().getLoggedInUserFirstName();
+        this.sendersLastName = Login_Controller.getInstance().getLoggedInUserLastName();
         conversation = Main_Controller.getInstance().getConversationTextArea(recipient);
 
 /*
@@ -74,14 +78,14 @@ public class All_In_One_ConversationWindow implements Serializable {
 
         Button myButton = new Button("Send");
         myButton.setOnAction(e -> {
-            Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0);
+            Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0, sendersFirstName, sendersLastName);
             conversation.appendText(inputArea.getText() + System.getProperty("line.separator"));
             inputArea.clear();
         });
 
         inputArea.addEventFilter(KeyEvent.KEY_PRESSED, ke -> {
             if (ke.getCode().equals(KeyCode.ENTER)) {
-                Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0);
+                Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0, sendersFirstName, sendersLastName);
                 conversation.appendText(inputArea.getText() + System.getProperty("line.separator"));
                 inputArea.setText("");
                 ke.consume(); // necessary to prevent event handlers for this event

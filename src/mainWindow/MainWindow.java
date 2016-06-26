@@ -3,7 +3,8 @@ package mainWindow;
 import javafx.application.Application;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.image.Image;
+import javafx.scene.layout.*;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 
@@ -30,8 +31,12 @@ public class MainWindow extends Application{
         stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth()-320);
         stage.setY(primaryScreenBounds.getMinY() + 45);
 
+
         stage.show();
 
+    }
+    public void stop(){
+        Main_Controller.getInstance().closeThread();
     }
 
     //Application starter
