@@ -1,5 +1,7 @@
 package mainWindow.model;
 
+import javafx.scene.control.Button;
+
 /**
  * Created by marcin on 11/06/2016.
  */
@@ -20,6 +22,7 @@ public class Contact {
     public String getName(){
         return firstName+" "+lastName;
     }
+
 
     public String toString(){
         return firstName+ " "+lastName;

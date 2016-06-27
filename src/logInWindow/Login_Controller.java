@@ -78,5 +78,8 @@ public class Login_Controller {
     public String getLoggedInUserLastName(){
         return persistor.getLoggedInUserLastName(loggedInUser);
     }
+    public ArrayList<Contact> getSearchResults(){
+        return persistor.loadSearchResults();
+    }
 
 }

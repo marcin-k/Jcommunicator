@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a21ba7a7-11dc-4b6c-8c42-a7bef15362e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_ListOfContacts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mainWindow/CenterPaneSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mainWindow/ContactListCell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mainWindow/StatusListCell.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mainWindow/model/zzz_UNUSED_ListOfContacts.java" afterPath="" />
+    <list default="true" id="a21ba7a7-11dc-4b6c-8c42-a7bef15362e4" name="Default" comment="Log Out Changes">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Jcommunicator/logInWindow/Login_Controller.class" afterPath="$PROJECT_DIR$/out/production/Jcommunicator/logInWindow/Login_Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Jcommunicator/logInWindow/Login_DB_Persistor.class" afterPath="$PROJECT_DIR$/out/production/Jcommunicator/logInWindow/Login_DB_Persistor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Jcommunicator/logInWindow/Login_GUI.class" afterPath="$PROJECT_DIR$/out/production/Jcommunicator/logInWindow/Login_GUI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Jcommunicator/mainWindow/BottomPane.class" afterPath="$PROJECT_DIR$/out/production/Jcommunicator/mainWindow/BottomPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Jcommunicator/mainWindow/MainWindow.class" afterPath="$PROJECT_DIR$/out/production/Jcommunicator/mainWindow/MainWindow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Jcommunicator/mainWindow/TopLogo.class" afterPath="$PROJECT_DIR$/out/production/Jcommunicator/mainWindow/TopLogo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Jcommunicator/msg/FloatingMsg.class" afterPath="$PROJECT_DIR$/out/production/Jcommunicator/msg/FloatingMsg.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Changed_Unused/C_Logic.java" afterPath="$PROJECT_DIR$/src/Changed_Unused/C_Logic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/conversationWindow/All_In_One_ConversationWindow.java" afterPath="$PROJECT_DIR$/src/conversationWindow/All_In_One_ConversationWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logInWindow/Login_Controller.java" afterPath="$PROJECT_DIR$/src/logInWindow/Login_Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logInWindow/Login_DB_Persistor.java" afterPath="$PROJECT_DIR$/src/logInWindow/Login_DB_Persistor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logInWindow/Login_GUI.java" afterPath="$PROJECT_DIR$/src/logInWindow/Login_GUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainWindow/BottomPane.java" afterPath="$PROJECT_DIR$/src/mainWindow/BottomPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainWindow/CenterPane.java" afterPath="$PROJECT_DIR$/src/mainWindow/CenterPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainWindow/MainWindow.java" afterPath="$PROJECT_DIR$/src/mainWindow/MainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainWindow/Main_Controller.java" afterPath="$PROJECT_DIR$/src/mainWindow/Main_Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainWindow/TopLogo.java" afterPath="$PROJECT_DIR$/src/mainWindow/TopLogo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/msg/FloatingMsg.java" afterPath="$PROJECT_DIR$/src/msg/FloatingMsg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainWindow/CenterPaneSearch.java" afterPath="$PROJECT_DIR$/src/mainWindow/CenterPaneSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainWindow/model/Contact.java" afterPath="$PROJECT_DIR$/src/mainWindow/model/Contact.java" />
     </list>
     <ignored path="Jcommunicator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,14 +65,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Login_Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logInWindow/Login_Controller.java">
+      <file leaf-file-name="SearchResultsArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainWindow/model/SearchResultsArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-387">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="390">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
-                <element signature="e#2616#2617#0" expanded="true" />
-                <element signature="e#2685#2686#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CenterPaneSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainWindow/CenterPaneSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +97,8 @@
       <file leaf-file-name="Main_Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mainWindow/Main_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+            <state relative-caret-position="348">
+              <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
               <folding>
                 <element signature="method#getInstance#0;class#Main_Controller#0" expanded="false" />
                 <element signature="method#setConnectionConnected#0;class#Main_Controller#0" expanded="false" />
@@ -107,25 +109,7 @@
                 <element signature="method#sendMsg#0;class#Main_Controller#0" expanded="false" />
                 <element signature="method#setUpOpenWindows#0;class#Main_Controller#0" expanded="false" />
                 <element signature="method#playMessageSound#0;class#Main_Controller#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login_DB_Persistor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logInWindow/Login_DB_Persistor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-              <folding>
-                <element signature="method#loadContacts#0;class#Login_DB_Persistor#0" expanded="false" />
-                <element signature="method#getLoggedInUserFirstName#0;class#Login_DB_Persistor#0" expanded="false" />
-                <element signature="method#getLoggedInUserLastName#0;class#Login_DB_Persistor#0" expanded="false" />
-                <marker date="1466965578000" expanded="true" signature="1515:1557" ph="SELECT * FRO... User" />
-                <marker date="1466965578000" expanded="true" signature="2549:2601" ph="SELECT * FRO... Contacts" />
-                <marker date="1466965578000" expanded="true" signature="3502:3547" ph="SELECT * FRO... User" />
-                <marker date="1466965578000" expanded="true" signature="3991:4036" ph="SELECT * FRO... User" />
-                <marker date="1466965578000" expanded="true" signature="4531:4576" ph="SELECT * FRO... User" />
+                <element signature="method#closeThread#0;class#Main_Controller#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -181,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/mainWindow/model/ListOfContacts.java" />
         <option value="$PROJECT_DIR$/src/logInWindow/ObservableList_Contacts.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/model/zzz_UNUSED_ListOfContacts.java" />
-        <option value="$PROJECT_DIR$/src/mainWindow/model/Contact.java" />
         <option value="$PROJECT_DIR$/src/conversationWindow/C_Controller.java" />
         <option value="$PROJECT_DIR$/src/conversationWindow/C_GUI.java" />
         <option value="$PROJECT_DIR$/src/conversationWindow/C_Logic.java" />
@@ -195,14 +178,16 @@
         <option value="$PROJECT_DIR$/src/Changed_Unused/C_Logic.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/CenterPane.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/ContactListCell.java" />
-        <option value="$PROJECT_DIR$/src/mainWindow/CenterPaneSearch.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/TopLogo.java" />
         <option value="$PROJECT_DIR$/src/logInWindow/Login_GUI.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/StatusListCell.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/BottomPane.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/MainWindow.java" />
-        <option value="$PROJECT_DIR$/src/logInWindow/Login_Controller.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/model/Contact.java" />
         <option value="$PROJECT_DIR$/src/logInWindow/Login_DB_Persistor.java" />
+        <option value="$PROJECT_DIR$/src/logInWindow/Login_Controller.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/model/SearchResultsArrayList.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/CenterPaneSearch.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/Main_Controller.java" />
       </list>
     </option>
@@ -286,10 +271,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -302,6 +283,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainWindow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,6 +305,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mainWindow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,7 +358,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testing_Playground" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -392,19 +381,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/gui/conversationWindow" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="msg" />
       <recent name="logInWindow" />
       <recent name="gui.msg" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/gui/conversationWindow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -1031,7 +1020,7 @@
       <workItem from="1466805953235" duration="2961000" />
       <workItem from="1466843687527" duration="5741000" />
       <workItem from="1466872432430" duration="127000" />
-      <workItem from="1466873557104" duration="7354000" />
+      <workItem from="1466873557104" duration="15752000" />
     </task>
     <task id="LOCAL-00001" summary="Main Window position update">
       <created>1465646971628</created>
@@ -1089,11 +1078,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466372731062</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Log Out Changes">
+      <created>1466965608985</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1466965608985</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140149000" />
+    <option name="totallyTimeSpent" value="148547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1115,13 +1111,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32811275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20457797" sideWeight="0.49292928" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22631167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22603719" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907885" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1180,7 +1176,8 @@
     <MESSAGE value="Small update" />
     <MESSAGE value="Libraries correction" />
     <MESSAGE value="Login protocol updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login protocol updated" />
+    <MESSAGE value="Log Out Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log Out Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1190,8 +1187,14 @@
           <line>87</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mainWindow/Main_Controller.java</url>
+          <line>175</line>
+          <properties class="mainWindow.Main_Controller" method="closeThread" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1200,28 +1203,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mainWindow/BottomPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainWindow/TopLogo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainWindow/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/persistors/ServerPersistor.java" />
     <entry file="file://$PROJECT_DIR$/src/mainWindow/BottomPane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1403,7 +1384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conversationWindow/ConversationsTextAreas.java">
+    <entry file="file://$PROJECT_DIR$/src/conversationWindow/conversationsTextAreas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
@@ -1415,13 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainWindow/model/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1455,13 +1429,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="1" selection-start-line="9" selection-start-column="29" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainWindow/CenterPaneSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1492,7 +1462,7 @@
         <state relative-caret-position="108">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1502,8 +1472,8 @@
         <state relative-caret-position="480">
           <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
           <folding>
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="false" />
+            <element signature="e#1317#1318#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1526,38 +1496,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logInWindow/Login_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#2616#2617#0" expanded="true" />
-            <element signature="e#2685#2686#0" expanded="true" />
-          </folding>
+    <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.User">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.User">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.User">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logInWindow/Login_DB_Persistor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+        <state relative-caret-position="210">
+          <caret line="138" column="51" selection-start-line="138" selection-start-column="51" selection-end-line="138" selection-end-column="51" />
           <folding>
+            <element signature="method#Login_DB_Persistor#0;class#Login_DB_Persistor#0" expanded="false" />
+            <element signature="method#check#0;class#Login_DB_Persistor#0" expanded="false" />
             <element signature="method#loadContacts#0;class#Login_DB_Persistor#0" expanded="false" />
+            <element signature="method#getLoggedInUserAddress#0;class#Login_DB_Persistor#0" expanded="false" />
             <element signature="method#getLoggedInUserFirstName#0;class#Login_DB_Persistor#0" expanded="false" />
             <element signature="method#getLoggedInUserLastName#0;class#Login_DB_Persistor#0" expanded="false" />
-            <marker date="1466965578000" expanded="true" signature="1515:1557" ph="SELECT * FRO... User" />
-            <marker date="1466965578000" expanded="true" signature="2549:2601" ph="SELECT * FRO... Contacts" />
-            <marker date="1466965578000" expanded="true" signature="3502:3547" ph="SELECT * FRO... User" />
-            <marker date="1466965578000" expanded="true" signature="3991:4036" ph="SELECT * FRO... User" />
-            <marker date="1466965578000" expanded="true" signature="4531:4576" ph="SELECT * FRO... User" />
+            <marker date="1467051277000" expanded="true" signature="1458:1504" ph="SELECT * FRO... User" />
+            <marker date="1467051277000" expanded="true" signature="2477:2533" ph="SELECT * FRO... Contacts" />
+            <marker date="1467051277000" expanded="true" signature="3442:3491" ph="SELECT * FRO... User" />
+            <marker date="1467051277000" expanded="true" signature="3976:4025" ph="SELECT * FRO... User" />
+            <marker date="1467051277000" expanded="true" signature="4517:4566" ph="SELECT * FRO... User" />
+            <marker date="1467051277000" expanded="true" signature="5213:5227" ph="SELECT * FRO... Contacts" />
+            <marker date="1467051277000" expanded="true" signature="5213:5231" ph="SELECT * FRO... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logInWindow/Login_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainWindow/model/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainWindow/model/SearchResultsArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainWindow/CenterPaneSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainWindow/Main_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+        <state relative-caret-position="348">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
           <folding>
             <element signature="method#getInstance#0;class#Main_Controller#0" expanded="false" />
             <element signature="method#setConnectionConnected#0;class#Main_Controller#0" expanded="false" />
@@ -1568,6 +1612,7 @@
             <element signature="method#sendMsg#0;class#Main_Controller#0" expanded="false" />
             <element signature="method#setUpOpenWindows#0;class#Main_Controller#0" expanded="false" />
             <element signature="method#playMessageSound#0;class#Main_Controller#0" expanded="false" />
+            <element signature="method#closeThread#0;class#Main_Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
