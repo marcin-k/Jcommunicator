@@ -23,8 +23,15 @@ public class Contact {
         return firstName+" "+lastName;
     }
 
-
     public String toString(){
         return firstName+ " "+lastName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
     }
 }

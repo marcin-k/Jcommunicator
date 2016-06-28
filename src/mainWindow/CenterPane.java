@@ -1,13 +1,7 @@
 package mainWindow;
 
-import conversationWindow.All_In_One_ConversationWindow;
 import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.control.ListView;
-import javafx.scene.control.MultipleSelectionModel;
-import javafx.scene.control.SelectionMode;
-import javafx.stage.Stage;
+import javafx.scene.control.*;
 import logInWindow.Login_Controller;
 import mainWindow.model.Contact;
 
@@ -24,9 +18,26 @@ public class CenterPane {
         myListSelMod.setSelectionMode(SelectionMode.SINGLE);
 
 
-        contactView.setOnMouseClicked(e-> {
+        ContextMenu menu = new ContextMenu();
+        MenuItem remove = new MenuItem("remove from contacts");
+        remove.setOnAction(e-> {
+            System.out.println("removing item");
+            Login_Controller.getInstance().removeContact((Contact) contactView.getSelectionModel().getSelectedItem());
+        });
+        MenuItem sendMsg = new MenuItem("send im");
+        sendMsg.setOnAction(e->{
             Contact recipient = (Contact) contactView.getSelectionModel().getSelectedItem();
             Main_Controller.getInstance().createConversationWindow(recipient);
+        });
+        menu.getItems().addAll(remove, sendMsg);
+        contactView.setContextMenu(menu);
+
+        contactView.setOnMouseClicked(e-> {
+            if(e.getClickCount()==2){
+                Contact recipient = (Contact) contactView.getSelectionModel().getSelectedItem();
+                Main_Controller.getInstance().createConversationWindow(recipient);
+            }
+
         });
         /*
         contactView.getSelectionModel().selectedItemProperty().addListener(

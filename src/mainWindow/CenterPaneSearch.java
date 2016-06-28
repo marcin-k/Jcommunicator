@@ -2,15 +2,17 @@ package mainWindow;
 
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.Node;
-import javafx.scene.Scene;
-import javafx.scene.control.*;
-import javafx.scene.input.MouseButton;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.ContextMenu;
+import javafx.scene.control.ListView;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
+import logInWindow.Login_Controller;
+import mainWindow.model.Contact;
 import mainWindow.model.SearchResultsArrayList;
+
+import java.util.Collection;
 
 /**
  * Created by marcin on 24/06/2016.
@@ -19,6 +21,12 @@ public class CenterPaneSearch {
     public Node getNode(){
         GridPane gridPane = new GridPane();
 //--------------------Top Text Field--------------------------------------------
+   //TODO: the listview requires to be moved to controller
+        SearchResultsArrayList searchResultsArrayList = new SearchResultsArrayList();
+        ListView searchResults = new ListView();
+        searchResults.setItems(FXCollections.observableArrayList(searchResultsArrayList.getSearchResults()));
+
+
         TextField searchTextField = new TextField();
         searchTextField.setPrefWidth(296);
         Platform.runLater(new Runnable() {
@@ -27,36 +35,25 @@ public class CenterPaneSearch {
                 searchTextField.requestFocus();
             }
         });
+
+        //on enter pressed limit the results to only those that meets the search criteria (contains letters entered)
+        searchTextField.setOnAction(e-> {
+            searchResults.setItems(FXCollections.observableArrayList(searchResultsArrayList.getSearchResults(searchTextField.getText())));
+        });
 //--------------------Search Results---------------------------------------------
- //TODO: Add the method to get all people in a database in a list, add "add" button for each person so
- //TODO: they can by add to contact list
 
-        SearchResultsArrayList searchResultsArrayList = new SearchResultsArrayList();
-        ListView searchResults = new ListView(FXCollections.observableArrayList(searchResultsArrayList.getSearchResults()));
-        //Right mouse button click handler
-        //TODO: add contentMenu
-        final ContextMenu fruitChoices = new ContextMenu();
-        fruitChoices.getItems().addAll(new MenuItem("Apples"), new MenuItem("Oranges"), new MenuItem("Pears"));
-        for (final MenuItem menuItem : fruitChoices.getItems()) {
-            menuItem.setOnAction(new EventHandler<ActionEvent>() {
-                @Override public void handle(ActionEvent actionEvent) {
-
-                    System.out.println("You like " + menuItem.getText());
-                }
-            });
-        }
-
-        searchResults.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
-            @Override public void handle(MouseEvent mouseEvent) {
-                System.out.println(mouseEvent);
-                System.out.println("Secondary button down: " + mouseEvent.isSecondaryButtonDown());
-                if (MouseButton.SECONDARY.equals(mouseEvent.getButton())) {
-                    System.out.println("Choosing fruit");
-                    Scene myScene = new Scene(fruitChoices, mouseEvent.getScreenX(), mouseEvent.getScreenY());
-                }
-            }
+        ContextMenu menu = new ContextMenu();
+        MenuItem add = new MenuItem("add to contacts");
+        add.setOnAction(e-> {
+            Login_Controller.getInstance().addUserToMyContacts((Contact) searchResults.getSelectionModel().getSelectedItem());
         });
 
+        MenuItem sendIm = new MenuItem("send IM");
+        sendIm.setOnAction(e-> {
+            Main_Controller.getInstance().createConversationWindow((Contact) searchResults.getSelectionModel().getSelectedItem());
+        });
+        menu.getItems().addAll(add, sendIm);
+        searchResults.setContextMenu(menu);
 
 
         gridPane.add(searchTextField, 0, 0);

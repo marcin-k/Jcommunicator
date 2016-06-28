@@ -82,4 +82,17 @@ public class Login_Controller {
         return persistor.loadSearchResults();
     }
 
+    public void addUserToMyContacts(Contact contact){
+        persistor.addUserToMyContacts(loggedInUser, contact);
+    }
+//method adds a contact to list of users, without the need to reload a users from db each time new users is added
+    public void addContact(int address, String firstName, String lastName){
+        contacts.addAll(new Contact(address, firstName, lastName));
+    }
+
+    public void removeContact(Contact contact){
+        contacts.remove(contact);
+        persistor.removeContact(loggedInUser, contact);
+    }
+
 }

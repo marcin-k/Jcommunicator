@@ -21,7 +21,7 @@ public class SearchResultsArrayList {
     public ArrayList<Contact> getSearchResults(String filter){
         ArrayList<Contact> filteredResults = new ArrayList<>();
         for(Contact e:searchResults){
-            if(e.getName().contains(filter)){
+            if(e.getName().toLowerCase().contains(filter.toLowerCase())){
                 filteredResults.add(e);
             }
         }

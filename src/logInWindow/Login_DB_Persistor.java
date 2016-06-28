@@ -6,6 +6,7 @@ package logInWindow;
 
 
 import mainWindow.model.Contact;
+import mainWindow.model.SearchResultsArrayList;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -159,4 +160,48 @@ public class Login_DB_Persistor {
         }
         return contacts;
     }
+
+
+    //Will return true if successful or false if already in the list
+    public boolean addUserToMyContacts(String loggedInUsersUsername, Contact contact){
+        boolean toReturn = false;
+        try {
+            Statement stmt = dbConnection.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM Contacts WHERE " +
+                    "(userName='" + loggedInUsersUsername + "') " +
+                    "and" +
+                    " (" + "firstName='" + contact.getFirstName() +"' )and" +
+                    "( lastName='"+contact.getLastName()+"' )");
+
+            if (rs.next()) {
+                System.out.println("user already in the list");
+                toReturn = false;
+            } else {
+                Statement update = dbConnection.createStatement();
+                update.executeUpdate("INSERT INTO `Contacts` (`username`, `address`,`firstName`, `lastName`) VALUES ('"+loggedInUsersUsername
+                        +"', '"+ contact.getAddress() +"','"+ contact.getFirstName() +"'," +
+                        " '"+ contact.getLastName() +"')");
+                Login_Controller.getInstance().addContact(contact.getAddress(), contact.getFirstName(), contact.getLastName());
+                System.out.println("user will be added");
+                toReturn = true;
+            }
+            rs.close();
+            stmt.close();
+        } catch (SQLException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return toReturn;
+    }
+//------------------------------Removes users from my contacts---------------------------------
+    public void removeContact(String loggedInUsersUsername, Contact contact){
+        try {
+            Statement delete = dbConnection.createStatement();
+            delete.executeUpdate("DELETE FROM `Contacts` WHERE `address`='"+contact.getAddress()+
+                    "' and`username`='"+loggedInUsersUsername+"'");
+            delete.close();
+        } catch (SQLException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+
 }

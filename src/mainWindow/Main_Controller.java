@@ -7,14 +7,16 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 import logInWindow.Login_Controller;
 import mainWindow.model.Contact;
 import msg.FloatingMsg;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
+
 import java.io.*;
 import java.net.Socket;
+
 import static java.lang.Thread.sleep;
 
 /**
@@ -169,12 +171,10 @@ public class Main_Controller implements Runnable, Serializable{
         mediaPlayer.play();
     }
 //-------------------Opens search contact window--------------------------------------
-    public void openSearchContactWindow(){
-        System.out.println("opening search contacts window");
-    }
 
     public void closeThread(){
-
         sendMsg(Login_Controller.getInstance().getLoggedInUserAddress(),0,"",9,"","");
     }
+
+
 }
