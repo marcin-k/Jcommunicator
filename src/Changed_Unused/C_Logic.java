@@ -1,6 +1,6 @@
 package Changed_Unused;
 
-import msg.FloatingMsg;
+import model.FloatingMsg;
 
 import java.io.*;
 import java.net.Socket;

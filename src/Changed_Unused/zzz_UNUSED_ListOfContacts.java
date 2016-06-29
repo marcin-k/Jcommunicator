@@ -1,6 +1,6 @@
 package Changed_Unused;
 
-import mainWindow.model.Contact;
+import model.Contact;
 
 import java.util.ArrayList;
 /*
