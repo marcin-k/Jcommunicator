@@ -16,9 +16,9 @@ public class MainWindow extends Application{
     public void start(Stage stage) throws Exception {
         BorderPane rootNode = new BorderPane();
         stage.setTitle("JCommunicator");
-        rootNode.setTop(new TopLogo().getTopLogo(rootNode));
-        rootNode.setCenter(new CenterPane().getCenterPane());
-        rootNode.setBottom(new BottomPane().getBottomPane());
+        rootNode.setTop(new MainWindow_TopLogo().getTopLogo(rootNode));
+        rootNode.setCenter(new MainWindow_CenterPane_Contacts().getCenterPane());
+        rootNode.setBottom(new MainWindow_BottomPane().getBottomPane());
         Scene myScene = new Scene(rootNode, 296, 600);
         stage.setScene(myScene);
         //

@@ -10,7 +10,7 @@ import model.Contact;
 /**
  * Created by marcin on 11/06/2016.
  */
-public class CenterPane {
+public class MainWindow_CenterPane_Contacts {
     public Node getCenterPane(){
 
         //ObservableList<Contact> contactList = Login_Controller.getInstance().getList();

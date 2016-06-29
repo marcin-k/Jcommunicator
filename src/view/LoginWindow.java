@@ -21,8 +21,8 @@ import javafx.scene.text.Text;
 /**
  * Created by marcin on 08/06/2016.
  */
-public class Login_GUI {
-    public Login_GUI(){
+public class LoginWindow {
+    public LoginWindow(){
         Login_Controller.getInstance().resetLabel();
     }
 

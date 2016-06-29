@@ -18,7 +18,7 @@ import javafx.stage.Stage;
 /**
  * Created by marcin on 24/05/2016.
  */
-public class TopLogo {
+public class MainWindow_TopLogo {
     public Node getTopLogo(BorderPane rootNode){
 
 //---------------------------Image View ------------------------------------------
@@ -54,14 +54,14 @@ public class TopLogo {
 
         Button search = new Button("", searchIV);
         search.setOnAction(e-> {
-           rootNode.setCenter(new CenterPaneSearch().getNode());
+           rootNode.setCenter(new MainWindow_CenterPane_Search().getNode());
         });
         //search.setStyle("-fx-background-color: #95c6f2;-fx-border-color: #166bb6;");
 
 
         Button contacts = new Button("", contactIV);
         contacts.setOnAction(e-> {
-            rootNode.setCenter(new CenterPane().getCenterPane());
+            rootNode.setCenter(new MainWindow_CenterPane_Contacts().getCenterPane());
         });
         //contacts.setStyle("-fx-background-color: #95c6f2;-fx-border-color: #166bb6");
 
@@ -90,7 +90,7 @@ public class TopLogo {
             if (name.equals("Log in")) {
                 System.out.println("login window should appear now");
                 Stage loginWindow = new Stage();
-                Login_GUI node  = new Login_GUI();
+                LoginWindow node  = new LoginWindow();
                 try {
                     Scene myScene = new Scene((Parent) node.getNode(rootNode), 320, 250);
                     loginWindow.setScene(myScene);

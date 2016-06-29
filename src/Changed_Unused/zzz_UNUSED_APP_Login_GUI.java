@@ -50,7 +50,7 @@ public class zzz_UNUSED_APP_Login_GUI extends Application {
         hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
         hbBtn.getChildren().add(btn);
         grid.add(hbBtn, 1, 4);
-        //commented out to prevent duplication warning to appear in Login_GUI
+        //commented out to prevent duplication warning to appear in LoginWindow
         /*btn.setOnAction(event -> {
             if(login.getText().equals(""))
                 System.out.println("empty login");

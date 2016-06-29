@@ -12,7 +12,7 @@ import view.listCells.StatusListCell;
 /**
  * Created by marcin on 25/05/2016.
  */
-public class BottomPane {
+public class MainWindow_BottomPane {
     public Node getBottomPane(){
         GridPane gridPane = new GridPane();
 

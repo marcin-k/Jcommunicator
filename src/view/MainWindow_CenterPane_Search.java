@@ -16,7 +16,7 @@ import model.SearchResultsArrayList;
 /**
  * Created by marcin on 24/06/2016.
  */
-public class CenterPaneSearch {
+public class MainWindow_CenterPane_Search {
     public Node getNode(){
         GridPane gridPane = new GridPane();
 //--------------------Top Text Field--------------------------------------------

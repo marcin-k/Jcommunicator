@@ -1,7 +1,5 @@
 package model;
 
-import javafx.scene.control.Button;
-
 /**
  * Created by marcin on 11/06/2016.
  */

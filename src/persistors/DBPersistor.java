@@ -11,11 +11,11 @@ import model.Contact;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class Login_DB_Persistor {
+public class DBPersistor {
     //This is the JDBC Connection object.
     private Connection dbConnection;
 
-    public Login_DB_Persistor() {
+    public DBPersistor() {
         try {
             //instance of db driver
             Class.forName("com.mysql.jdbc.Driver");

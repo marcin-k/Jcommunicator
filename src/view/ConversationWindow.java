@@ -21,7 +21,7 @@ import static java.lang.Thread.sleep;
 /**
  * Created by marcin on 17/06/2016.
  */
-public class All_In_One_ConversationWindow implements Serializable {
+public class ConversationWindow implements Serializable {
     //Socket clientSocket;
     TextArea conversation;
     int sender;
@@ -29,28 +29,13 @@ public class All_In_One_ConversationWindow implements Serializable {
     String sendersFirstName="";
     String sendersLastName="";
 
-    public All_In_One_ConversationWindow(int sender, int recipient){
+    public ConversationWindow(int sender, int recipient){
         this.sender = sender;
         this.recipient = recipient;
         this.sendersFirstName = Login_Controller.getInstance().getLoggedInUserFirstName();
         this.sendersLastName = Login_Controller.getInstance().getLoggedInUserLastName();
         conversation = Main_Controller.getInstance().getConversationTextArea(recipient);
 
-/*
-        Thread t;
-        String server = "localhost";
-        int port = 1777;
-
-        try {
-            t = new Thread(this, "Client Thread");
-            t.start();
-            clientSocket = new Socket(server, port);
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
-        */
-        //creates entry in servers rooting table
-        //sendMsg(sender, recipient, "", 1);
     }
 
     public Node getNode(){
@@ -101,42 +86,5 @@ public class All_In_One_ConversationWindow implements Serializable {
 
         return rootNode;
     }
-/*
-    @Override
-    public void run() {
-        while(true) {
-            try {
-                sleep(100);
-                InputStream inFromServer = clientSocket.getInputStream();
-                ObjectInputStream in = new ObjectInputStream(inFromServer);
-                FloatingMsg msg = (FloatingMsg)in.readObject();
-                conversation.appendText("Server says " + msg.getMessage()+System.getProperty("line.separator"));
 
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            catch(IOException e) {
-                conversation.appendText("Server has close the connection: "+ e +System.getProperty("line.separator"));
-                break;
-            }
-            catch (NullPointerException e){
-                conversation.appendText("You are not connected to a server" +System.getProperty("line.separator"));
-                break;
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    public void sendMsg(int sender, int recipient, String msg, int specialInfo){
-        OutputStream outToServer = null;
-        try {
-            outToServer = clientSocket.getOutputStream();
-            ObjectOutputStream out = new ObjectOutputStream(outToServer);
-            out.writeObject(new FloatingMsg(sender, recipient, msg, specialInfo));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    */
 }

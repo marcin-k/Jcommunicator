@@ -5,8 +5,8 @@ import javafx.collections.ObservableList;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
-import persistors.Login_DB_Persistor;
-import view.CenterPane;
+import persistors.DBPersistor;
+import view.MainWindow_CenterPane_Contacts;
 import model.Contact;
 
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class Login_Controller {
     private static Login_Controller ourInstance = null;
     private static Label myLabel;
-    private static Login_DB_Persistor persistor;
+    private static DBPersistor persistor;
     private static ObservableList<Contact> contacts;
     private static String loggedInUser="";
     private boolean[] contactsAvailability;
@@ -26,7 +26,7 @@ public class Login_Controller {
     //constructor
     private Login_Controller() {
         myLabel = new Label("");
-        persistor = new Login_DB_Persistor();
+        persistor = new DBPersistor();
         contacts = FXCollections.observableArrayList();
         contactsAvailability = new boolean[MAX_NUMBER_OF_CONTACTS];
     }
@@ -50,7 +50,7 @@ public class Login_Controller {
             Main_Controller.getInstance().setConnectionConnected();
             ArrayList<Contact> arry = persistor.loadContacts(login);
             contacts = FXCollections.observableArrayList(arry);
-            rootNode.setCenter(new CenterPane().getCenterPane());
+            rootNode.setCenter(new MainWindow_CenterPane_Contacts().getCenterPane());
             Main_Controller.getInstance().loginToServer();
             //recipient is set to -1 as this message is only for server to know
             //that client is on and what port to forward the traffic
