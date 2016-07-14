@@ -1,2 +1,2 @@
 # Jcommunicator
-Communnicator App Includes Server App
+Communnicator App
