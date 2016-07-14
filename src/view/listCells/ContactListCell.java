@@ -8,6 +8,8 @@ import model.Contact;
 
 /**
  * Created by marcin on 24/06/2016.
+ *
+ * Class used to define the display of the contact list
  */
 public class ContactListCell extends ListCell<Contact> {
     protected void updateItem(Contact item, boolean empty){
@@ -15,7 +17,6 @@ public class ContactListCell extends ListCell<Contact> {
         setGraphic(null);
         setText(null);
         if(item!=null){
-
             String fileName = null;
             if(Login_Controller.getInstance().isContactAvailable(item.getAddress())){
                 fileName = "file:Java2.png";
@@ -27,9 +28,10 @@ public class ContactListCell extends ListCell<Contact> {
             searchIV.setFitWidth(25);
             searchIV.setFitHeight(25);
             setGraphic(searchIV);
-            setText(item.toString()+"\n"+"< Status Info >");
+            setText(item.toString()+"\n"+item.getStatus());
 
         }
+
     }
 
 }

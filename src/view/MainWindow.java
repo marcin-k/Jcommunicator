@@ -4,12 +4,15 @@ import controllers.Main_Controller;
 import javafx.application.Application;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
-import javafx.scene.layout.*;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 
 /**
  * Created by marcin on 24/05/2016.
+ *
+ * Main Application Class
+ * Calls other classes to compose the main window
  */
 public class MainWindow extends Application{
     @Override
@@ -21,16 +24,12 @@ public class MainWindow extends Application{
         rootNode.setBottom(new MainWindow_BottomPane().getBottomPane());
         Scene myScene = new Scene(rootNode, 296, 600);
         stage.setScene(myScene);
-        //
-        //hides top bar close/minimise/maximize
-        //stage.initStyle(StageStyle.UNDECORATED);
-        //
+
         //gets a screen boundaries
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
         //set Stage boundaries to top right part of the screen
         stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth()-320);
         stage.setY(primaryScreenBounds.getMinY() + 45);
-
 
         stage.show();
 

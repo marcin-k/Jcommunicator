@@ -1,5 +1,7 @@
 package view;
 
+import controllers.Login_Controller;
+import controllers.Main_Controller;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
@@ -11,38 +13,37 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import controllers.Login_Controller;
-import controllers.Main_Controller;
-
-import java.io.*;
-
-import static java.lang.Thread.sleep;
+import java.io.Serializable;
 
 /**
  * Created by marcin on 17/06/2016.
+ *
+ * Conversation window Class
  */
 public class ConversationWindow implements Serializable {
-    //Socket clientSocket;
+
     TextArea conversation;
+    //Senders and recipients addresses
     int sender;
     int recipient;
     String sendersFirstName="";
     String sendersLastName="";
 
+    //Constructor
     public ConversationWindow(int sender, int recipient){
         this.sender = sender;
         this.recipient = recipient;
         this.sendersFirstName = Login_Controller.getInstance().getLoggedInUserFirstName();
         this.sendersLastName = Login_Controller.getInstance().getLoggedInUserLastName();
         conversation = Main_Controller.getInstance().getConversationTextArea(recipient);
-
     }
 
+    //Returns a conversation window
     public Node getNode(){
 
         BorderPane rootNode = new BorderPane();
 
-        rootNode.setTop(new Label(" will be replaced with chatter info "));
+        rootNode.setTop(new Label(" Conversation preview: "));
 
         VBox mainPartOfWindow = new VBox();
         TextArea conversationPreview = conversation;
@@ -61,15 +62,13 @@ public class ConversationWindow implements Serializable {
 
         Button myButton = new Button("Send");
         myButton.setOnAction(e -> {
-            Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0, sendersFirstName, sendersLastName);
-            conversation.appendText(inputArea.getText() + System.getProperty("line.separator"));
+            sendMsg(inputArea);
             inputArea.clear();
         });
 
         inputArea.addEventFilter(KeyEvent.KEY_PRESSED, ke -> {
             if (ke.getCode().equals(KeyCode.ENTER)) {
-                Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0, sendersFirstName, sendersLastName);
-                conversation.appendText(inputArea.getText() + System.getProperty("line.separator"));
+                sendMsg(inputArea);
                 inputArea.setText("");
                 ke.consume(); // necessary to prevent event handlers for this event
             }
@@ -85,6 +84,11 @@ public class ConversationWindow implements Serializable {
         rootNode.setPadding(new Insets(10, 10, 10, 10));
 
         return rootNode;
+    }
+    //Sends message to a server
+    private void sendMsg(TextArea inputArea){
+        Main_Controller.getInstance().sendMsg(sender, recipient, inputArea.getText(), 0, sendersFirstName, sendersLastName);
+        conversation.appendText(inputArea.getText() + System.getProperty("line.separator"));
     }
 
 }

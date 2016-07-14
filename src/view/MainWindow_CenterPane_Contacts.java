@@ -9,54 +9,41 @@ import model.Contact;
 
 /**
  * Created by marcin on 11/06/2016.
+ *
+ * This class displays the main window contact list
  */
 public class MainWindow_CenterPane_Contacts {
     public Node getCenterPane(){
-
-        //ObservableList<Contact> contactList = Login_Controller.getInstance().getList();
+        //List of Contact Objects
         ListView<Contact> contactView = new ListView(Login_Controller.getInstance().getList());
+        //Sets the display of he list
         contactView.setCellFactory(c -> new ContactListCell());
         MultipleSelectionModel<Contact> myListSelMod = contactView.getSelectionModel();
         myListSelMod.setSelectionMode(SelectionMode.SINGLE);
 
-
+        //Right mouse button functions (removing contact from list / send IM)
         ContextMenu menu = new ContextMenu();
         MenuItem remove = new MenuItem("remove from contacts");
         remove.setOnAction(e-> {
             System.out.println("removing item");
-            Login_Controller.getInstance().removeContact((Contact) contactView.getSelectionModel().getSelectedItem());
+            Login_Controller.getInstance().removeContact(contactView.getSelectionModel().getSelectedItem());
         });
         MenuItem sendMsg = new MenuItem("send im");
         sendMsg.setOnAction(e->{
-            Contact recipient = (Contact) contactView.getSelectionModel().getSelectedItem();
+            Contact recipient = contactView.getSelectionModel().getSelectedItem();
             Main_Controller.getInstance().createConversationWindow(recipient);
         });
         menu.getItems().addAll(remove, sendMsg);
         contactView.setContextMenu(menu);
 
+        //On double mouse click send IM
         contactView.setOnMouseClicked(e-> {
             if(e.getClickCount()==2){
-                Contact recipient = (Contact) contactView.getSelectionModel().getSelectedItem();
+                Contact recipient = contactView.getSelectionModel().getSelectedItem();
                 Main_Controller.getInstance().createConversationWindow(recipient);
             }
 
         });
-        /*
-        contactView.getSelectionModel().selectedItemProperty().addListener(
-                (ov, old_val, new_val) -> {
-                    //call to overloaded setCenter method to change what is displayed in center screen
-                    //open new conversation window
-
-                    Contact recipient = (Contact)new_val;
-                    Main_Controller.getInstance().createConversationWindow(recipient);
-
-                    System.out.println("clearing selection model");
-                    //int index = contactView.getEditingIndex();
-                    //contactView.getSelectionModel().clearSelection();
-
-
-                });
-          */
         return contactView;
     }
 

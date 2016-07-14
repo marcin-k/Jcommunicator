@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Jcommunicator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a21ba7a7-11dc-4b6c-8c42-a7bef15362e4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/persistors/Login_DB_Persistor.java" afterPath="$PROJECT_DIR$/src/persistors/DBPersistor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/view/All_In_One_ConversationWindow.java" afterPath="$PROJECT_DIR$/src/view/ConversationWindow.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/view/BottomPane.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/view/CenterPane.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/view/CenterPaneSearch.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/view/Login_GUI.java" afterPath="$PROJECT_DIR$/src/view/LoginWindow.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/view/TopLogo.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Changed_Unused/ListTEST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllers/StatusUpdateThread.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/conversationWindow/C_Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/conversationWindow/C_GUI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/conversationWindow/C_Logic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/conversationWindow/C_conversationTextArea$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/conversationWindow/C_conversationTextArea.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/logInWindow/Login_Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/logInWindow/Login_DB_Persistor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/logInWindow/Login_GUI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/mainWindow/BottomPane.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/mainWindow/MainWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/mainWindow/TopLogo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/msg/FloatingMsg.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Jcommunicator_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Jcommunicator_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_APP_Login_GUI.java" afterPath="$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_APP_Login_GUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/Login_Controller.java" afterPath="$PROJECT_DIR$/src/Controllers/Login_Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Contact.java" afterPath="$PROJECT_DIR$/src/model/Contact.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistors/DBPersistor.java" afterPath="$PROJECT_DIR$/src/persistors/DBPersistor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/ConversationWindow.java" afterPath="$PROJECT_DIR$/src/view/ConversationWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/LoginWindow.java" afterPath="$PROJECT_DIR$/src/view/LoginWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow.java" afterPath="$PROJECT_DIR$/src/view/MainWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/listCells/ContactListCell.java" afterPath="$PROJECT_DIR$/src/view/listCells/ContactListCell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/listCells/StatusListCell.java" afterPath="$PROJECT_DIR$/src/view/listCells/StatusListCell.java" />
     </list>
     <ignored path="Jcommunicator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,6 +57,30 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - JComm@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="User" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - JComm@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -47,23 +92,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main_Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main_Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/Main_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+            <state relative-caret-position="-269">
+              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#getInstance#0;class#Main_Controller#0" expanded="false" />
                 <element signature="method#setConnectionConnected#0;class#Main_Controller#0" expanded="false" />
-                <element signature="method#setConnectionNotConnected#0;class#Main_Controller#0" expanded="false" />
-                <element signature="method#Main_Controller#0;class#Main_Controller#0" expanded="false" />
-                <element signature="method#loginToServer#0;class#Main_Controller#0" expanded="false" />
-                <element signature="method#sendMsg#0;class#Main_Controller#0" expanded="false" />
-                <element signature="method#createConversationWindow#0;class#Main_Controller#0" expanded="false" />
-                <element signature="class#5732:6766" expanded="false" />
                 <element signature="method#setUpOpenWindows#0;class#Main_Controller#0" expanded="false" />
-                <element signature="method#playMessageSound#0;class#Main_Controller#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login_Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/Login_Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-609">
+              <caret line="61" column="72" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Contact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConversationsTextAreas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/ConversationsTextAreas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloatingMsg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/FloatingMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-89">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchResultsArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/SearchResultsArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBPersistor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/persistors/DBPersistor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding>
+                <marker date="1468535544000" expanded="true" signature="1331:1377" ph="SELECT * FRO... User" />
+                <marker date="1468535544000" expanded="true" signature="2362:2418" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="3364:3413" ph="SELECT * FRO... User" />
+                <marker date="1468535544000" expanded="true" signature="3980:4029" ph="SELECT * FRO... User" />
+                <marker date="1468535544000" expanded="true" signature="4579:4628" ph="SELECT * FRO... User" />
+                <marker date="1468535544000" expanded="true" signature="5317:5331" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="5317:5335" ph="SELECT * FRO... USER" />
+                <marker date="1468535544000" expanded="true" signature="6269:6364" ph="SELECT * FRO... User" />
+                <marker date="1468535544000" expanded="true" signature="6269:6365" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="6269:6437" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="6269:6467" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="6269:6509" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="6269:6535" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="6269:6537" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="6269:6540" ph="SELECT * FRO... Contacts" />
+                <marker date="1468535544000" expanded="true" signature="6795:7048" ph="INSERT INTO `Contacts`... " />
+                <marker date="1468535544000" expanded="true" signature="7746:7786" ph="DELETE FROM " />
+                <marker date="1468535544000" expanded="true" signature="7746:7848" ph="DELETE FROM " />
+                <marker date="1468535544000" expanded="true" signature="7746:7874" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -102,9 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/logInWindow/ObservableList_Contacts.java" />
-        <option value="$PROJECT_DIR$/src/mainWindow/model/zzz_UNUSED_ListOfContacts.java" />
-        <option value="$PROJECT_DIR$/src/conversationWindow/C_Controller.java" />
         <option value="$PROJECT_DIR$/src/conversationWindow/C_GUI.java" />
         <option value="$PROJECT_DIR$/src/conversationWindow/C_Logic.java" />
         <option value="$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_APP_Login_GUI.java" />
@@ -130,29 +244,32 @@
         <option value="$PROJECT_DIR$/src/logInWindow/Login_Controller.java" />
         <option value="$PROJECT_DIR$/src/Controllers/Main_Controller.java" />
         <option value="$PROJECT_DIR$/src/Controllers/Login_Controller.java" />
-        <option value="$PROJECT_DIR$/src/controllers/Login_Controller.java" />
-        <option value="$PROJECT_DIR$/src/view/MainWindow.java" />
-        <option value="$PROJECT_DIR$/src/view/listCells/ContactListCell.java" />
-        <option value="$PROJECT_DIR$/src/view/listCells/StatusListCell.java" />
         <option value="$PROJECT_DIR$/src/model/SearchResultsArrayList.java" />
         <option value="$PROJECT_DIR$/src/model/ConversationsTextAreas.java" />
         <option value="$PROJECT_DIR$/src/model/FloatingMsg.java" />
-        <option value="$PROJECT_DIR$/src/model/Contact.java" />
         <option value="$PROJECT_DIR$/src/view/All_In_One_ConversationWindow.java" />
-        <option value="$PROJECT_DIR$/src/view/ConversationWindow.java" />
         <option value="$PROJECT_DIR$/src/view/Login_GUI.java" />
-        <option value="$PROJECT_DIR$/src/view/LoginWindow.java" />
         <option value="$PROJECT_DIR$/src/view/TopLogo.java" />
-        <option value="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" />
         <option value="$PROJECT_DIR$/src/view/BottomPane.java" />
-        <option value="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" />
         <option value="$PROJECT_DIR$/src/view/CenterPane.java" />
-        <option value="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" />
         <option value="$PROJECT_DIR$/src/view/CenterPaneSearch.java" />
-        <option value="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" />
         <option value="$PROJECT_DIR$/src/persistors/Login_DB_Persistor.java" />
-        <option value="$PROJECT_DIR$/src/persistors/DBPersistor.java" />
+        <option value="$PROJECT_DIR$/src/controllers/ListTEST.java" />
+        <option value="$PROJECT_DIR$/src/model/Contact.java" />
+        <option value="$PROJECT_DIR$/src/Changed_Unused/ListTEST.java" />
+        <option value="$PROJECT_DIR$/src/view/listCells/ContactListCell.java" />
+        <option value="$PROJECT_DIR$/src/view/listCells/StatusListCell.java" />
+        <option value="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" />
+        <option value="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" />
+        <option value="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" />
+        <option value="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" />
+        <option value="$PROJECT_DIR$/src/view/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/controllers/Main_Controller.java" />
+        <option value="$PROJECT_DIR$/src/view/LoginWindow.java" />
+        <option value="$PROJECT_DIR$/src/view/ConversationWindow.java" />
+        <option value="$PROJECT_DIR$/src/controllers/StatusUpdateThread.java" />
+        <option value="$PROJECT_DIR$/src/controllers/Login_Controller.java" />
+        <option value="$PROJECT_DIR$/src/persistors/DBPersistor.java" />
       </list>
     </option>
   </component>
@@ -202,6 +319,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,10 +407,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -305,12 +421,13 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -870,7 +987,12 @@
       <workItem from="1466843687527" duration="5741000" />
       <workItem from="1466872432430" duration="127000" />
       <workItem from="1466873557104" duration="17945000" />
-      <workItem from="1467054522575" duration="23191000" />
+      <workItem from="1467054522575" duration="23348000" />
+      <workItem from="1467310447728" duration="23360000" />
+      <workItem from="1467753144758" duration="2535000" />
+      <workItem from="1468008796883" duration="3921000" />
+      <workItem from="1468070614864" duration="8056000" />
+      <workItem from="1468531005939" duration="4327000" />
     </task>
     <task id="LOCAL-00001" summary="Main Window position update">
       <created>1465646971628</created>
@@ -949,11 +1071,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467237993951</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Structural cleanup.">
+      <created>1467239123463</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1467239123463</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173931000" />
+    <option name="totallyTimeSpent" value="216287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -969,20 +1098,19 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2899729" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20457797" sideWeight="0.49292928" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22603719" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907885" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -993,6 +1121,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39972898" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1043,11 +1172,12 @@
     <MESSAGE value="Log Out Changes" />
     <MESSAGE value="Context menus added and theirs behaviours" />
     <MESSAGE value="Initial status load, files structure changed into MVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial status load, files structure changed into MVC" />
+    <MESSAGE value="Structural cleanup." />
+    <option name="LAST_COMMIT_MESSAGE" value="Structural cleanup." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1056,20 +1186,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_BottomPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="115" selection-start-line="13" selection-start-column="115" selection-end-line="13" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_TopLogo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1165,14 +1281,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logInWindow/ObservableList_Contacts.java" />
     <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.User">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1239,61 +1355,156 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.User">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.User">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.User">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.Contacts">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/javafx-src.zip!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/8343133f/d85d8e0e-7813-45a3-a75f-2d3a74c36c9f/JComm.User">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/ListTEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/listCells/ContactListCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/SearchResultsArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/view/listCells/StatusListCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_TopLogo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_BottomPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/LoginWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ConversationWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/StatusUpdateThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1306,183 +1517,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/FloatingMsg.java">
+    <entry file="file://$PROJECT_DIR$/src/model/SearchResultsArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/listCells/ContactListCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/listCells/StatusListCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/LoginWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/Login_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="method#Login_Controller#0;class#Login_Controller#0" expanded="false" />
-            <element signature="method#getInstance#0;class#Login_Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Login_Controller#0" expanded="false" />
-            <element signature="method#initializeContactsAvailable#0;class#Login_Controller#0" expanded="false" />
-            <element signature="method#checkMyContactsStatus#0;class#Login_Controller#0" expanded="false" />
-            <element signature="method#addContact#0;class#Login_Controller#0" expanded="false" />
-            <element signature="method#removeContact#0;class#Login_Controller#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_BottomPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ConversationWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/persistors/DBPersistor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="method#check#0;class#DBPersistor#0" expanded="false" />
-            <element signature="method#loadContacts#0;class#DBPersistor#0" expanded="false" />
-            <element signature="method#getLoggedInUserAddress#0;class#DBPersistor#0" expanded="false" />
-            <element signature="method#getLoggedInUserFirstName#0;class#DBPersistor#0" expanded="false" />
-            <element signature="method#getLoggedInUserLastName#0;class#DBPersistor#0" expanded="false" />
-            <element signature="method#loadSearchResults#0;class#DBPersistor#0" expanded="false" />
-            <element signature="method#addUserToMyContacts#0;class#DBPersistor#0" expanded="false" />
-            <element signature="method#removeContact#0;class#DBPersistor#0" expanded="false" />
-            <marker date="1467238392000" expanded="false" signature="307:1148" ph="{...}" />
-            <marker date="1467238392000" expanded="true" signature="1469:1515" ph="SELECT * FRO... User" />
-            <marker date="1467238392000" expanded="true" signature="2488:2544" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="3453:3502" ph="SELECT * FRO... User" />
-            <marker date="1467238392000" expanded="true" signature="3987:4036" ph="SELECT * FRO... User" />
-            <marker date="1467238392000" expanded="true" signature="4528:4577" ph="SELECT * FRO... User" />
-            <marker date="1467238392000" expanded="true" signature="5224:5238" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="5224:5242" ph="SELECT * FRO... USER" />
-            <marker date="1467238392000" expanded="true" signature="6176:6271" ph="SELECT * FRO... User" />
-            <marker date="1467238392000" expanded="true" signature="6176:6272" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="6176:6344" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="6176:6374" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="6176:6416" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="6176:6442" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="6176:6444" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="6176:6447" ph="SELECT * FRO... Contacts" />
-            <marker date="1467238392000" expanded="true" signature="6702:6955" ph="INSERT INTO `Contacts`... " />
-            <marker date="1467238392000" expanded="true" signature="7653:7693" ph="DELETE FROM " />
-            <marker date="1467238392000" expanded="true" signature="7653:7755" ph="DELETE FROM " />
-            <marker date="1467238392000" expanded="true" signature="7653:7781" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/javafx-src.zip!/javafx/event/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MainWindow_TopLogo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/Main_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+        <state relative-caret-position="-269">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Main_Controller#0" expanded="false" />
             <element signature="method#setConnectionConnected#0;class#Main_Controller#0" expanded="false" />
-            <element signature="method#setConnectionNotConnected#0;class#Main_Controller#0" expanded="false" />
-            <element signature="method#Main_Controller#0;class#Main_Controller#0" expanded="false" />
-            <element signature="method#loginToServer#0;class#Main_Controller#0" expanded="false" />
-            <element signature="method#sendMsg#0;class#Main_Controller#0" expanded="false" />
-            <element signature="method#createConversationWindow#0;class#Main_Controller#0" expanded="false" />
-            <element signature="class#5732:6766" expanded="false" />
             <element signature="method#setUpOpenWindows#0;class#Main_Controller#0" expanded="false" />
-            <element signature="method#playMessageSound#0;class#Main_Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/FloatingMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/Login_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="61" column="72" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/persistors/DBPersistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <marker date="1468535544000" expanded="true" signature="1331:1377" ph="SELECT * FRO... User" />
+            <marker date="1468535544000" expanded="true" signature="2362:2418" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="3364:3413" ph="SELECT * FRO... User" />
+            <marker date="1468535544000" expanded="true" signature="3980:4029" ph="SELECT * FRO... User" />
+            <marker date="1468535544000" expanded="true" signature="4579:4628" ph="SELECT * FRO... User" />
+            <marker date="1468535544000" expanded="true" signature="5317:5331" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="5317:5335" ph="SELECT * FRO... USER" />
+            <marker date="1468535544000" expanded="true" signature="6269:6364" ph="SELECT * FRO... User" />
+            <marker date="1468535544000" expanded="true" signature="6269:6365" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="6269:6437" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="6269:6467" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="6269:6509" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="6269:6535" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="6269:6537" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="6269:6540" ph="SELECT * FRO... Contacts" />
+            <marker date="1468535544000" expanded="true" signature="6795:7048" ph="INSERT INTO `Contacts`... " />
+            <marker date="1468535544000" expanded="true" signature="7746:7786" ph="DELETE FROM " />
+            <marker date="1468535544000" expanded="true" signature="7746:7848" ph="DELETE FROM " />
+            <marker date="1468535544000" expanded="true" signature="7746:7874" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -1494,10 +1588,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="jpa-descriptors" />
-              <type id="javaee-facet-resources" />
               <type id="library" />
+              <type id="jpa-descriptors" />
               <type id="artifact" />
+              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
           <last-edited>Jcommunicator:jar</last-edited>

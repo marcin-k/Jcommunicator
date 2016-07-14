@@ -7,11 +7,13 @@ public class Contact {
     private int address;
     private String firstName;
     private String lastName;
+    private String status;
 
     public Contact(int address, String firstName, String lastName){
         this.address = address;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.status = "";
     }
 
     public int getAddress() {
@@ -31,5 +33,14 @@ public class Contact {
 
     public String getFirstName() {
         return firstName;
+    }
+
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

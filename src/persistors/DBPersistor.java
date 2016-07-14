@@ -14,14 +14,17 @@ import java.util.ArrayList;
 public class DBPersistor {
     //This is the JDBC Connection object.
     private Connection dbConnection;
+    String firstName="";
+    String lastName="";
+    int loggedInUserAddress = 0;
 
     public DBPersistor() {
         try {
             //instance of db driver
             Class.forName("com.mysql.jdbc.Driver");
-//TODO: Change the database connection details to servers
+            //DB Address and login credential
             this.dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/JComm?user=root&password=");
-            //this.dbConnection = DriverManager.getConnection("jdbc:mysql://mysql1.host.ie:3306/krma50_db?user=krma50_user&password=abc12345");
+
             if (this.dbConnection != null) {
                 System.out.println("CONNECTED TO DATABASE!! : " + this.dbConnection);
             } else {
@@ -35,7 +38,6 @@ public class DBPersistor {
         }
     }
 
-    //TODO: change the return type to string to indicate the type of problem
     // Checks login details
     public boolean check(String login, String password) {
 
@@ -47,7 +49,7 @@ public class DBPersistor {
                 String pass = rs.getString("password");
                 if (rs.getString("password").equals(password)) {
                     toReturn = true;
-                    //get address and set in C_controller
+                    //get loggedInUserAddress and set in C_controller
                 }
                 System.out.println("----PASSWORD IS: X" + pass + "X");
             } else {
@@ -88,51 +90,54 @@ public class DBPersistor {
         return contacts;
     }
 
-    //---------------------------Retrieves logged in user address------------------
+    //---------------------------Retrieves logged in user loggedInUserAddress------------------
     public int getLoggedInUserAddress(String username) {
-        int address = 0;
-        try {
-            Statement stmt = dbConnection.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='" + username + "'");
-            if (rs.next()) {
-                address = rs.getInt("address");
+        if(loggedInUserAddress ==0) {
+            try {
+                Statement stmt = dbConnection.createStatement();
+                ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='" + username + "'");
+                if (rs.next()) {
+                    loggedInUserAddress = rs.getInt("address");
+                }
+                rs.close();
+                stmt.close();
+            } catch (SQLException ex) {
+                System.out.println(ex.getMessage());
             }
-            rs.close();
-            stmt.close();
-        } catch (SQLException ex) {
-            System.out.println(ex.getMessage());
         }
-        return address;
+        return loggedInUserAddress;
     }
 
     public String getLoggedInUserFirstName(String username) {
-        String firstName = "";
-        try {
-            Statement stmt = dbConnection.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='" + username + "'");
-            if (rs.next()) {
-                firstName = rs.getString("firstName");
+        if(firstName.equals("")) {
+            try {
+                Statement stmt = dbConnection.createStatement();
+                ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='" + username + "'");
+                if (rs.next()) {
+                    firstName = rs.getString("firstName");
+                }
+                rs.close();
+                stmt.close();
+            } catch (SQLException ex) {
+                System.out.println(ex.getMessage());
             }
-            rs.close();
-            stmt.close();
-        } catch (SQLException ex) {
-            System.out.println(ex.getMessage());
         }
         return firstName;
     }
 
     public String getLoggedInUserLastName(String username) {
-        String lastName = "";
-        try {
-            Statement stmt = dbConnection.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='" + username + "'");
-            if (rs.next()) {
-                lastName = rs.getString("lastName");
+        if(lastName.equals("")) {
+            try {
+                Statement stmt = dbConnection.createStatement();
+                ResultSet rs = stmt.executeQuery("SELECT * FROM User where login='" + username + "'");
+                if (rs.next()) {
+                    lastName = rs.getString("lastName");
+                }
+                rs.close();
+                stmt.close();
+            } catch (SQLException ex) {
+                System.out.println(ex.getMessage());
             }
-            rs.close();
-            stmt.close();
-        } catch (SQLException ex) {
-            System.out.println(ex.getMessage());
         }
         return lastName;
     }

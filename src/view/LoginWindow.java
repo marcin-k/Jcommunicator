@@ -1,6 +1,7 @@
 package view;
 
 import controllers.Login_Controller;
+import javafx.event.Event;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
@@ -20,6 +21,9 @@ import javafx.scene.text.Text;
 
 /**
  * Created by marcin on 08/06/2016.
+ *
+ * Login Window; used to establish the connection with db and server,
+ * Pulls all contacts and theirs statuses
  */
 public class LoginWindow {
     public LoginWindow(){
@@ -64,39 +68,28 @@ public class LoginWindow {
         hbBtn.getChildren().add(btn);
         grid.add(hbBtn, 1, 4);
 
-        btn.setOnAction(event -> {
-            if(login.getText().equals(""))
-                System.out.println("empty login");
-            else if(pwd.getText().equals(""))
-                System.out.println("empty password");
-            else
-                if(Login_Controller.getInstance().login(login.getText(), pwd.getText(), rootNode)){
-                    try {
-                        Thread.sleep(500);
-                        ((Node)(event.getSource())).getScene().getWindow().hide();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-        });
-        pwd.setOnAction(e->{
-            if(login.getText().equals(""))
-                System.out.println("empty login");
-            else if(pwd.getText().equals(""))
-                System.out.println("empty password");
-            else
-            if(Login_Controller.getInstance().login(login.getText(), pwd.getText(), rootNode)){
-                try {
-                    Thread.sleep(500);
-                    ((Node)(e.getSource())).getScene().getWindow().hide();
-                } catch (InterruptedException e1) {
-                    e1.printStackTrace();
-                }
-            }
-        });
+        //On button pressed / enter pressed events
+        btn.setOnAction(event -> logInButtonFunction(event, login, pwd, rootNode));
+        pwd.setOnAction(event -> logInButtonFunction(event, login, pwd, rootNode));
 
         Label loginInfo = Login_Controller.getInstance().getStatus();
         grid.add(loginInfo,1,5);
         return grid;
+    }
+    //Password Validator
+    public void logInButtonFunction(Event event, TextField login, PasswordField pwd, BorderPane rootNode){
+        if(login.getText().equals(""))
+            System.out.println("empty login");
+        else if(pwd.getText().equals(""))
+            System.out.println("empty password");
+        else
+        if(Login_Controller.getInstance().login(login.getText(), pwd.getText(), rootNode)){
+            try {
+                Thread.sleep(500);
+                ((Node)(event.getSource())).getScene().getWindow().hide();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

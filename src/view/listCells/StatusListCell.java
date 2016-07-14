@@ -6,6 +6,12 @@ import javafx.scene.image.ImageView;
 
 /**
  * Created by marcin on 24/06/2016.
+ *
+ * Class used to define the display of the status change panel (currently unused)
+ *  ************************************************************************
+ *  * Panel will be added to a bottom of the main app window allowing user *
+ *  * to change their status to AFK and Offline(hidden)                    *
+ *  ************************************************************************
  */
 public class StatusListCell extends ListCell<String> {
     protected void updateItem(String item, boolean empty){
