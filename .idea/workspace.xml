@@ -8,18 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a21ba7a7-11dc-4b6c-8c42-a7bef15362e4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/Login_Controller.java" afterPath="$PROJECT_DIR$/src/Controllers/Login_Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/Main_Controller.java" afterPath="$PROJECT_DIR$/src/Controllers/Main_Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SearchResultsArrayList.java" afterPath="$PROJECT_DIR$/src/model/SearchResultsArrayList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistors/DBPersistor.java" afterPath="$PROJECT_DIR$/src/persistors/DBPersistor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/ConversationWindow.java" afterPath="$PROJECT_DIR$/src/view/ConversationWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/LoginWindow.java" afterPath="$PROJECT_DIR$/src/view/LoginWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow.java" afterPath="$PROJECT_DIR$/src/view/MainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/listCells/ContactListCell.java" afterPath="$PROJECT_DIR$/src/view/listCells/ContactListCell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/StatusUpdateThread.java" afterPath="$PROJECT_DIR$/src/controllers/StatusUpdateThread.java" />
     </list>
     <ignored path="Jcommunicator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1042,7 +1031,7 @@
       <workItem from="1468008796883" duration="3921000" />
       <workItem from="1468070614864" duration="8056000" />
       <workItem from="1468531005939" duration="5060000" />
-      <workItem from="1468713031812" duration="260000" />
+      <workItem from="1468713031812" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="Main Window position update">
       <created>1465646971628</created>
@@ -1163,11 +1152,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468713212254</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Final Version">
+      <created>1468713302578</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1468713302578</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217280000" />
+    <option name="totallyTimeSpent" value="217326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

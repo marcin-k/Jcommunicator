@@ -1,4 +1,4 @@
-package controllers;
+package Controllers;
 
 import javafx.application.Platform;
 import javafx.scene.layout.BorderPane;
