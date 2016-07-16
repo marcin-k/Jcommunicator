@@ -1,4 +1,4 @@
-package controllers;
+package Controllers;
 
 import javafx.scene.control.Alert;
 import view.ConversationWindow;
@@ -21,6 +21,7 @@ import static java.lang.Thread.sleep;
 
 /**
  * Created by marcin on 09/06/2016.
+ *
  */
 public class Main_Controller implements Runnable, Serializable{
     private static Main_Controller ourInstance = null;

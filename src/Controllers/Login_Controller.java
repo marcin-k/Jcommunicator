@@ -1,4 +1,4 @@
-package controllers;
+package Controllers;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -13,6 +13,7 @@ import java.util.ArrayList;
 
 /**
  * Created by marcin on 08/06/2016.
+ *
  */
 public class Login_Controller {
     private static Login_Controller ourInstance = null;

@@ -1,7 +1,7 @@
 package view;
 
-import controllers.Login_Controller;
-import controllers.Main_Controller;
+import Controllers.Login_Controller;
+import Controllers.Main_Controller;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.scene.Node;

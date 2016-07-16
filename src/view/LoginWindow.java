@@ -1,6 +1,6 @@
 package view;
 
-import controllers.Login_Controller;
+import Controllers.Login_Controller;
 import javafx.event.Event;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
