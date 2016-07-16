@@ -1,7 +1,7 @@
 package view;
 
-import Controllers.Login_Controller;
-import Controllers.Main_Controller;
+import controllers.Login_Controller;
+import controllers.Main_Controller;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;

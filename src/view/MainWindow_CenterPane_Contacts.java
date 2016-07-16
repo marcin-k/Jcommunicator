@@ -1,9 +1,9 @@
 package view;
 
-import Controllers.Main_Controller;
+import controllers.Main_Controller;
 import javafx.scene.Node;
 import javafx.scene.control.*;
-import Controllers.Login_Controller;
+import controllers.Login_Controller;
 import view.listCells.ContactListCell;
 import model.Contact;
 

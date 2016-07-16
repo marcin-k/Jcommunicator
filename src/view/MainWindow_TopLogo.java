@@ -1,6 +1,6 @@
 package view;
 
-import Controllers.Main_Controller;
+import controllers.Main_Controller;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

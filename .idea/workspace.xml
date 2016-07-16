@@ -8,7 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="a21ba7a7-11dc-4b6c-8c42-a7bef15362e4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/Login_Controller.java" afterPath="$PROJECT_DIR$/src/Controllers/Login_Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/Main_Controller.java" afterPath="$PROJECT_DIR$/src/Controllers/Main_Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/StatusUpdateThread.java" afterPath="$PROJECT_DIR$/src/controllers/StatusUpdateThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SearchResultsArrayList.java" afterPath="$PROJECT_DIR$/src/model/SearchResultsArrayList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistors/DBPersistor.java" afterPath="$PROJECT_DIR$/src/persistors/DBPersistor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/ConversationWindow.java" afterPath="$PROJECT_DIR$/src/view/ConversationWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/LoginWindow.java" afterPath="$PROJECT_DIR$/src/view/LoginWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow.java" afterPath="$PROJECT_DIR$/src/view/MainWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_BottomPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Contacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_CenterPane_Search.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" afterPath="$PROJECT_DIR$/src/view/MainWindow_TopLogo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/listCells/ContactListCell.java" afterPath="$PROJECT_DIR$/src/view/listCells/ContactListCell.java" />
     </list>
     <ignored path="Jcommunicator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +79,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main_Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/Main_Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/controllers/Main_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
@@ -81,7 +93,7 @@
         </entry>
       </file>
       <file leaf-file-name="StatusUpdateThread.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/StatusUpdateThread.java">
+        <entry file="file://$PROJECT_DIR$/src/controllers/StatusUpdateThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="33">
               <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
@@ -93,7 +105,7 @@
         </entry>
       </file>
       <file leaf-file-name="Login_Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/Login_Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/controllers/Login_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
@@ -193,25 +205,25 @@
             <state relative-caret-position="276">
               <caret line="27" column="143" selection-start-line="26" selection-start-column="12" selection-end-line="27" selection-end-column="143" />
               <folding>
-                <marker date="1468713287000" expanded="true" signature="1584:1630" ph="SELECT * FRO... User" />
-                <marker date="1468713287000" expanded="true" signature="2615:2671" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="3617:3666" ph="SELECT * FRO... User" />
-                <marker date="1468713287000" expanded="true" signature="4233:4282" ph="SELECT * FRO... User" />
-                <marker date="1468713287000" expanded="true" signature="4832:4881" ph="SELECT * FRO... User" />
-                <marker date="1468713287000" expanded="true" signature="5570:5584" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="5570:5588" ph="SELECT * FRO... USER" />
-                <marker date="1468713287000" expanded="true" signature="6522:6617" ph="SELECT * FRO... User" />
-                <marker date="1468713287000" expanded="true" signature="6522:6618" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="6522:6690" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="6522:6720" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="6522:6762" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="6522:6788" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="6522:6790" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="6522:6793" ph="SELECT * FRO... Contacts" />
-                <marker date="1468713287000" expanded="true" signature="7048:7301" ph="INSERT INTO `Contacts`... " />
-                <marker date="1468713287000" expanded="true" signature="7999:8039" ph="DELETE FROM " />
-                <marker date="1468713287000" expanded="true" signature="7999:8101" ph="DELETE FROM " />
-                <marker date="1468713287000" expanded="true" signature="7999:8127" ph="DELETE FROM " />
+                <marker date="1468713413000" expanded="true" signature="1584:1630" ph="SELECT * FRO... User" />
+                <marker date="1468713413000" expanded="true" signature="2615:2671" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="3617:3666" ph="SELECT * FRO... User" />
+                <marker date="1468713413000" expanded="true" signature="4233:4282" ph="SELECT * FRO... User" />
+                <marker date="1468713413000" expanded="true" signature="4832:4881" ph="SELECT * FRO... User" />
+                <marker date="1468713413000" expanded="true" signature="5570:5584" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="5570:5588" ph="SELECT * FRO... USER" />
+                <marker date="1468713413000" expanded="true" signature="6522:6617" ph="SELECT * FRO... User" />
+                <marker date="1468713413000" expanded="true" signature="6522:6618" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="6522:6690" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="6522:6720" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="6522:6762" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="6522:6788" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="6522:6790" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="6522:6793" ph="SELECT * FRO... Contacts" />
+                <marker date="1468713413000" expanded="true" signature="7048:7301" ph="INSERT INTO `Contacts`... " />
+                <marker date="1468713413000" expanded="true" signature="7999:8039" ph="DELETE FROM " />
+                <marker date="1468713413000" expanded="true" signature="7999:8101" ph="DELETE FROM " />
+                <marker date="1468713413000" expanded="true" signature="7999:8127" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -228,8 +240,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -302,8 +316,8 @@
         <option value="$PROJECT_DIR$/src/persistors/DBPersistor.java" />
         <option value="$PROJECT_DIR$/src/controllers/Login_Controller.java" />
         <option value="$PROJECT_DIR$/src/controllers/Main_Controller.java" />
-        <option value="$PROJECT_DIR$/src/controllers/StatusUpdateThread.java" />
         <option value="$PROJECT_DIR$/src/Controllers/StatusUpdateThread.java" />
+        <option value="$PROJECT_DIR$/src/controllers/StatusUpdateThread.java" />
       </list>
     </option>
   </component>
@@ -459,7 +473,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,7 +485,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -1031,7 +1045,7 @@
       <workItem from="1468008796883" duration="3921000" />
       <workItem from="1468070614864" duration="8056000" />
       <workItem from="1468531005939" duration="5060000" />
-      <workItem from="1468713031812" duration="306000" />
+      <workItem from="1468713031812" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="Main Window position update">
       <created>1465646971628</created>
@@ -1159,11 +1173,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468713302578</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Final Version">
+      <created>1468713346143</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1468713346143</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217326000" />
+    <option name="totallyTimeSpent" value="217409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1611,30 +1632,30 @@
         <state relative-caret-position="276">
           <caret line="27" column="143" selection-start-line="26" selection-start-column="12" selection-end-line="27" selection-end-column="143" />
           <folding>
-            <marker date="1468713287000" expanded="true" signature="1584:1630" ph="SELECT * FRO... User" />
-            <marker date="1468713287000" expanded="true" signature="2615:2671" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="3617:3666" ph="SELECT * FRO... User" />
-            <marker date="1468713287000" expanded="true" signature="4233:4282" ph="SELECT * FRO... User" />
-            <marker date="1468713287000" expanded="true" signature="4832:4881" ph="SELECT * FRO... User" />
-            <marker date="1468713287000" expanded="true" signature="5570:5584" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="5570:5588" ph="SELECT * FRO... USER" />
-            <marker date="1468713287000" expanded="true" signature="6522:6617" ph="SELECT * FRO... User" />
-            <marker date="1468713287000" expanded="true" signature="6522:6618" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="6522:6690" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="6522:6720" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="6522:6762" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="6522:6788" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="6522:6790" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="6522:6793" ph="SELECT * FRO... Contacts" />
-            <marker date="1468713287000" expanded="true" signature="7048:7301" ph="INSERT INTO `Contacts`... " />
-            <marker date="1468713287000" expanded="true" signature="7999:8039" ph="DELETE FROM " />
-            <marker date="1468713287000" expanded="true" signature="7999:8101" ph="DELETE FROM " />
-            <marker date="1468713287000" expanded="true" signature="7999:8127" ph="DELETE FROM " />
+            <marker date="1468713413000" expanded="true" signature="1584:1630" ph="SELECT * FRO... User" />
+            <marker date="1468713413000" expanded="true" signature="2615:2671" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="3617:3666" ph="SELECT * FRO... User" />
+            <marker date="1468713413000" expanded="true" signature="4233:4282" ph="SELECT * FRO... User" />
+            <marker date="1468713413000" expanded="true" signature="4832:4881" ph="SELECT * FRO... User" />
+            <marker date="1468713413000" expanded="true" signature="5570:5584" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="5570:5588" ph="SELECT * FRO... USER" />
+            <marker date="1468713413000" expanded="true" signature="6522:6617" ph="SELECT * FRO... User" />
+            <marker date="1468713413000" expanded="true" signature="6522:6618" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="6522:6690" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="6522:6720" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="6522:6762" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="6522:6788" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="6522:6790" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="6522:6793" ph="SELECT * FRO... Contacts" />
+            <marker date="1468713413000" expanded="true" signature="7048:7301" ph="INSERT INTO `Contacts`... " />
+            <marker date="1468713413000" expanded="true" signature="7999:8039" ph="DELETE FROM " />
+            <marker date="1468713413000" expanded="true" signature="7999:8101" ph="DELETE FROM " />
+            <marker date="1468713413000" expanded="true" signature="7999:8127" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Login_Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/controllers/Login_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
@@ -1642,7 +1663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Main_Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/controllers/Main_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
@@ -1654,7 +1675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/StatusUpdateThread.java">
+    <entry file="file://$PROJECT_DIR$/src/controllers/StatusUpdateThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />

@@ -1,4 +1,4 @@
-package Controllers;
+package controllers;
 
 import javafx.scene.control.Alert;
 import view.ConversationWindow;

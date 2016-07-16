@@ -1,6 +1,6 @@
 package view;
 
-import Controllers.Main_Controller;
+import controllers.Main_Controller;
 import javafx.geometry.Insets;
 import javafx.scene.Node;
 import javafx.scene.control.*;

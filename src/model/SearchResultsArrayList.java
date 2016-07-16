@@ -1,6 +1,6 @@
 package model;
 
-import Controllers.Login_Controller;
+import controllers.Login_Controller;
 
 import java.util.ArrayList;
 
