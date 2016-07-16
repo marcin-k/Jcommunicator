@@ -9,6 +9,7 @@ import static java.lang.Thread.sleep;
  * Created by marcin on 02/07/2016.
  *
  * Thread used to refresh every 20 seconds the list of contacts, their status and availability
+ *
  */
 public class StatusUpdateThread implements Runnable {
     BorderPane rootNode = null;
