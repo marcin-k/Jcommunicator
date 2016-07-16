@@ -24,7 +24,8 @@ public class DBPersistor {
             Class.forName("com.mysql.jdbc.Driver");
             //DB Address and login credential
             this.dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/JComm?user=root&password=");
-            
+            //this.dbConnection = DriverManager.getConnection("jdbc:mysql://192.168.8.7:3306/JComm?user=root&password=");
+            //this.dbConnection = DriverManager.getConnection("jdbc:mysql://mysql1.host.ie:3306/krma50_db?user=krma50_user&password=abc12345");
             if (this.dbConnection != null) {
                 System.out.println("CONNECTED TO DATABASE!! : " + this.dbConnection);
             } else {

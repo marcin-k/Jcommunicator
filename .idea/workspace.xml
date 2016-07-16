@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a21ba7a7-11dc-4b6c-8c42-a7bef15362e4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Changed_Unused/C_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Changed_Unused/C_GUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Changed_Unused/C_Logic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Changed_Unused/C_conversationTextArea.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Changed_Unused/ListTEST.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_APP_Login_GUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_ListOfContacts.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistors/DBPersistor.java" afterPath="$PROJECT_DIR$/src/persistors/DBPersistor.java" />
     </list>
     <ignored path="Jcommunicator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,12 +69,25 @@
       <file leaf-file-name="Main_Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/Main_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-269">
+            <state relative-caret-position="765">
               <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="method#getInstance#0;class#Main_Controller#0" expanded="false" />
                 <element signature="method#setConnectionConnected#0;class#Main_Controller#0" expanded="false" />
+                <element signature="e#2413#2414#0" expanded="false" />
+                <element signature="e#2452#2453#0" expanded="false" />
+                <element signature="e#2694#2695#0" expanded="false" />
+                <element signature="e#2764#2765#0" expanded="false" />
                 <element signature="method#setUpOpenWindows#0;class#Main_Controller#0" expanded="false" />
+                <element signature="e#8154#8155#0" expanded="false" />
+                <element signature="e#8192#8193#0" expanded="false" />
+                <element signature="e#8234#8235#0" expanded="false" />
+                <element signature="e#8272#8273#0" expanded="false" />
+                <element signature="e#8314#8315#0" expanded="false" />
+                <element signature="e#8357#8358#0" expanded="false" />
+                <element signature="e#8707#8708#0" expanded="false" />
+                <element signature="e#8800#8801#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,9 +96,33 @@
       <file leaf-file-name="Login_Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/Login_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
+            <state relative-caret-position="780">
               <caret line="61" column="72" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="72" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#3552#3553#0" expanded="false" />
+                <element signature="e#3603#3604#0" expanded="false" />
+                <element signature="e#3740#3741#0" expanded="false" />
+                <element signature="e#3792#3793#0" expanded="false" />
+                <element signature="e#3911#3912#0" expanded="false" />
+                <element signature="e#3964#3965#0" expanded="false" />
+                <element signature="e#4695#4696#0" expanded="false" />
+                <element signature="e#4725#4726#0" expanded="false" />
+                <element signature="e#4811#4812#0" expanded="false" />
+                <element signature="e#4846#4847#0" expanded="false" />
+                <element signature="e#4924#4925#0" expanded="false" />
+                <element signature="e#4954#4955#0" expanded="false" />
+                <element signature="e#5060#5061#0" expanded="false" />
+                <element signature="e#5129#5130#0" expanded="false" />
+                <element signature="e#5243#5244#0" expanded="false" />
+                <element signature="e#5314#5315#0" expanded="false" />
+                <element signature="e#5426#5427#0" expanded="false" />
+                <element signature="e#5496#5497#0" expanded="false" />
+                <element signature="e#5582#5583#0" expanded="false" />
+                <element signature="e#5634#5635#0" expanded="false" />
+                <element signature="e#5727#5728#0" expanded="false" />
+                <element signature="e#5795#5796#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +132,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
+              <folding>
+                <element signature="e#426#427#0" expanded="false" />
+                <element signature="e#456#457#0" expanded="false" />
+                <element signature="e#485#486#0" expanded="false" />
+                <element signature="e#530#531#0" expanded="false" />
+                <element signature="e#561#562#0" expanded="false" />
+                <element signature="e#607#608#0" expanded="false" />
+                <element signature="e#642#643#0" expanded="false" />
+                <element signature="e#673#674#0" expanded="false" />
+                <element signature="e#709#710#0" expanded="false" />
+                <element signature="e#741#742#0" expanded="false" />
+                <element signature="e#775#776#0" expanded="false" />
+                <element signature="e#804#805#0" expanded="false" />
+                <element signature="e#848#849#0" expanded="false" />
+                <element signature="e#884#885#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +157,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#680#681#0" expanded="false" />
+                <element signature="e#744#745#0" expanded="false" />
+                <element signature="e#803#804#0" expanded="false" />
+                <element signature="e#857#858#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,9 +170,28 @@
       <file leaf-file-name="FloatingMsg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/FloatingMsg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
+            <state relative-caret-position="105">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#844#845#0" expanded="false" />
+                <element signature="e#873#874#0" expanded="false" />
+                <element signature="e#914#915#0" expanded="false" />
+                <element signature="e#950#951#0" expanded="false" />
+                <element signature="e#983#984#0" expanded="false" />
+                <element signature="e#1015#1016#0" expanded="false" />
+                <element signature="e#1062#1063#0" expanded="false" />
+                <element signature="e#1104#1105#0" expanded="false" />
+                <element signature="e#1138#1139#0" expanded="false" />
+                <element signature="e#1168#1169#0" expanded="false" />
+                <element signature="e#1214#1215#0" expanded="false" />
+                <element signature="e#1252#1253#0" expanded="false" />
+                <element signature="e#1286#1287#0" expanded="false" />
+                <element signature="e#1320#1321#0" expanded="false" />
+                <element signature="e#1362#1363#0" expanded="false" />
+                <element signature="e#1406#1407#0" expanded="false" />
+                <element signature="e#1447#1448#0" expanded="false" />
+                <element signature="e#1490#1491#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +201,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#379#380#0" expanded="false" />
+                <element signature="e#460#461#0" expanded="false" />
+                <element signature="e#554#555#0" expanded="false" />
+                <element signature="e#590#591#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,28 +215,28 @@
       <file leaf-file-name="DBPersistor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/persistors/DBPersistor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="276">
+              <caret line="27" column="143" selection-start-line="26" selection-start-column="12" selection-end-line="27" selection-end-column="143" />
               <folding>
-                <marker date="1468536048000" expanded="true" signature="1331:1377" ph="SELECT * FRO... User" />
-                <marker date="1468536048000" expanded="true" signature="2362:2418" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="3364:3413" ph="SELECT * FRO... User" />
-                <marker date="1468536048000" expanded="true" signature="3980:4029" ph="SELECT * FRO... User" />
-                <marker date="1468536048000" expanded="true" signature="4579:4628" ph="SELECT * FRO... User" />
-                <marker date="1468536048000" expanded="true" signature="5317:5331" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="5317:5335" ph="SELECT * FRO... USER" />
-                <marker date="1468536048000" expanded="true" signature="6269:6364" ph="SELECT * FRO... User" />
-                <marker date="1468536048000" expanded="true" signature="6269:6365" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="6269:6437" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="6269:6467" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="6269:6509" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="6269:6535" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="6269:6537" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="6269:6540" ph="SELECT * FRO... Contacts" />
-                <marker date="1468536048000" expanded="true" signature="6795:7048" ph="INSERT INTO `Contacts`... " />
-                <marker date="1468536048000" expanded="true" signature="7746:7786" ph="DELETE FROM " />
-                <marker date="1468536048000" expanded="true" signature="7746:7848" ph="DELETE FROM " />
-                <marker date="1468536048000" expanded="true" signature="7746:7874" ph="DELETE FROM " />
+                <marker date="1468711629000" expanded="true" signature="1584:1630" ph="SELECT * FRO... User" />
+                <marker date="1468711629000" expanded="true" signature="2615:2671" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="3617:3666" ph="SELECT * FRO... User" />
+                <marker date="1468711629000" expanded="true" signature="4233:4282" ph="SELECT * FRO... User" />
+                <marker date="1468711629000" expanded="true" signature="4832:4881" ph="SELECT * FRO... User" />
+                <marker date="1468711629000" expanded="true" signature="5570:5584" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="5570:5588" ph="SELECT * FRO... USER" />
+                <marker date="1468711629000" expanded="true" signature="6522:6617" ph="SELECT * FRO... User" />
+                <marker date="1468711629000" expanded="true" signature="6522:6618" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="6522:6690" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="6522:6720" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="6522:6762" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="6522:6788" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="6522:6790" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="6522:6793" ph="SELECT * FRO... Contacts" />
+                <marker date="1468711629000" expanded="true" signature="7048:7301" ph="INSERT INTO `Contacts`... " />
+                <marker date="1468711629000" expanded="true" signature="7999:8039" ph="DELETE FROM " />
+                <marker date="1468711629000" expanded="true" signature="7999:8101" ph="DELETE FROM " />
+                <marker date="1468711629000" expanded="true" signature="7999:8127" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -299,9 +375,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,9 +408,86 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jcommunicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jcommunicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jcommunicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jcommunicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jcommunicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jcommunicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jcommunicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jcommunicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +495,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jcommunicator_Server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -380,116 +532,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/gui/conversationWindow" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.MainWindow">
     <configuration default="false" name="zzz_UNUSED_APP_Login_GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1010,7 +1052,8 @@
       <workItem from="1467753144758" duration="2535000" />
       <workItem from="1468008796883" duration="3921000" />
       <workItem from="1468070614864" duration="8056000" />
-      <workItem from="1468531005939" duration="4954000" />
+      <workItem from="1468531005939" duration="5060000" />
+      <workItem from="1468713031812" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="Main Window position update">
       <created>1465646971628</created>
@@ -1110,11 +1153,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468536060209</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Final touches">
+      <created>1468536202198</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1468536202198</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216914000" />
+    <option name="totallyTimeSpent" value="217048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1126,18 +1176,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2899729" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32702702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1147,12 +1195,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23360354" sideWeight="0.5070707" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39972898" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2899729" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1325,49 +1375,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/C_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_APP_Login_GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212">
-          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_ListOfContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/C_conversationTextArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/C_GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-662">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/C_Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_APP_Login_GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/zzz_UNUSED_ListOfContacts.java" />
+    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/C_conversationTextArea.java" />
+    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/C_GUI.java" />
     <entry file="file://$PROJECT_DIR$/src/mainWindow/ConversationCreator.java" />
-    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/C_Logic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/C_Logic.java" />
     <entry file="file://$PROJECT_DIR$/userM.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1443,18 +1457,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/ListTEST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Changed_Unused/ListTEST.java" />
     <entry file="file://$PROJECT_DIR$/src/view/listCells/ContactListCell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1462,7 +1469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1470,7 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1478,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,7 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1502,7 +1504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1510,7 +1511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,7 +1518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1526,11 +1525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1538,7 +1532,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#775#776#0" expanded="false" />
+            <element signature="e#804#805#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1546,7 +1555,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#744#745#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#857#858#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1554,62 +1568,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#379#380#0" expanded="false" />
+            <element signature="e#460#461#0" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#590#591#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/Main_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-269">
+        <state relative-caret-position="765">
           <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#getInstance#0;class#Main_Controller#0" expanded="false" />
             <element signature="method#setConnectionConnected#0;class#Main_Controller#0" expanded="false" />
+            <element signature="e#2413#2414#0" expanded="false" />
+            <element signature="e#2452#2453#0" expanded="false" />
+            <element signature="e#2694#2695#0" expanded="false" />
+            <element signature="e#2764#2765#0" expanded="false" />
             <element signature="method#setUpOpenWindows#0;class#Main_Controller#0" expanded="false" />
+            <element signature="e#8154#8155#0" expanded="false" />
+            <element signature="e#8192#8193#0" expanded="false" />
+            <element signature="e#8234#8235#0" expanded="false" />
+            <element signature="e#8272#8273#0" expanded="false" />
+            <element signature="e#8314#8315#0" expanded="false" />
+            <element signature="e#8357#8358#0" expanded="false" />
+            <element signature="e#8707#8708#0" expanded="false" />
+            <element signature="e#8800#8801#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/FloatingMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
+        <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#844#845#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+            <element signature="e#914#915#0" expanded="false" />
+            <element signature="e#950#951#0" expanded="false" />
+            <element signature="e#983#984#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1062#1063#0" expanded="false" />
+            <element signature="e#1104#1105#0" expanded="false" />
+            <element signature="e#1138#1139#0" expanded="false" />
+            <element signature="e#1168#1169#0" expanded="false" />
+            <element signature="e#1214#1215#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1286#1287#0" expanded="false" />
+            <element signature="e#1320#1321#0" expanded="false" />
+            <element signature="e#1362#1363#0" expanded="false" />
+            <element signature="e#1406#1407#0" expanded="false" />
+            <element signature="e#1447#1448#0" expanded="false" />
+            <element signature="e#1490#1491#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/Login_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
+        <state relative-caret-position="780">
           <caret line="61" column="72" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="72" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3552#3553#0" expanded="false" />
+            <element signature="e#3603#3604#0" expanded="false" />
+            <element signature="e#3740#3741#0" expanded="false" />
+            <element signature="e#3792#3793#0" expanded="false" />
+            <element signature="e#3911#3912#0" expanded="false" />
+            <element signature="e#3964#3965#0" expanded="false" />
+            <element signature="e#4695#4696#0" expanded="false" />
+            <element signature="e#4725#4726#0" expanded="false" />
+            <element signature="e#4811#4812#0" expanded="false" />
+            <element signature="e#4846#4847#0" expanded="false" />
+            <element signature="e#4924#4925#0" expanded="false" />
+            <element signature="e#4954#4955#0" expanded="false" />
+            <element signature="e#5060#5061#0" expanded="false" />
+            <element signature="e#5129#5130#0" expanded="false" />
+            <element signature="e#5243#5244#0" expanded="false" />
+            <element signature="e#5314#5315#0" expanded="false" />
+            <element signature="e#5426#5427#0" expanded="false" />
+            <element signature="e#5496#5497#0" expanded="false" />
+            <element signature="e#5582#5583#0" expanded="false" />
+            <element signature="e#5634#5635#0" expanded="false" />
+            <element signature="e#5727#5728#0" expanded="false" />
+            <element signature="e#5795#5796#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/persistors/DBPersistor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="276">
+          <caret line="27" column="143" selection-start-line="26" selection-start-column="12" selection-end-line="27" selection-end-column="143" />
           <folding>
-            <marker date="1468536048000" expanded="true" signature="1331:1377" ph="SELECT * FRO... User" />
-            <marker date="1468536048000" expanded="true" signature="2362:2418" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="3364:3413" ph="SELECT * FRO... User" />
-            <marker date="1468536048000" expanded="true" signature="3980:4029" ph="SELECT * FRO... User" />
-            <marker date="1468536048000" expanded="true" signature="4579:4628" ph="SELECT * FRO... User" />
-            <marker date="1468536048000" expanded="true" signature="5317:5331" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="5317:5335" ph="SELECT * FRO... USER" />
-            <marker date="1468536048000" expanded="true" signature="6269:6364" ph="SELECT * FRO... User" />
-            <marker date="1468536048000" expanded="true" signature="6269:6365" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="6269:6437" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="6269:6467" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="6269:6509" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="6269:6535" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="6269:6537" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="6269:6540" ph="SELECT * FRO... Contacts" />
-            <marker date="1468536048000" expanded="true" signature="6795:7048" ph="INSERT INTO `Contacts`... " />
-            <marker date="1468536048000" expanded="true" signature="7746:7786" ph="DELETE FROM " />
-            <marker date="1468536048000" expanded="true" signature="7746:7848" ph="DELETE FROM " />
-            <marker date="1468536048000" expanded="true" signature="7746:7874" ph="DELETE FROM " />
+            <marker date="1468711629000" expanded="true" signature="1584:1630" ph="SELECT * FRO... User" />
+            <marker date="1468711629000" expanded="true" signature="2615:2671" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="3617:3666" ph="SELECT * FRO... User" />
+            <marker date="1468711629000" expanded="true" signature="4233:4282" ph="SELECT * FRO... User" />
+            <marker date="1468711629000" expanded="true" signature="4832:4881" ph="SELECT * FRO... User" />
+            <marker date="1468711629000" expanded="true" signature="5570:5584" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="5570:5588" ph="SELECT * FRO... USER" />
+            <marker date="1468711629000" expanded="true" signature="6522:6617" ph="SELECT * FRO... User" />
+            <marker date="1468711629000" expanded="true" signature="6522:6618" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="6522:6690" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="6522:6720" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="6522:6762" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="6522:6788" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="6522:6790" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="6522:6793" ph="SELECT * FRO... Contacts" />
+            <marker date="1468711629000" expanded="true" signature="7048:7301" ph="INSERT INTO `Contacts`... " />
+            <marker date="1468711629000" expanded="true" signature="7999:8039" ph="DELETE FROM " />
+            <marker date="1468711629000" expanded="true" signature="7999:8101" ph="DELETE FROM " />
+            <marker date="1468711629000" expanded="true" signature="7999:8127" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
